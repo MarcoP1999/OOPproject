@@ -34,7 +34,7 @@ Restituisce il JSON contenente tutti gli elementi che rispettano formato, altezz
 Restituisce il JSON contenente tutti gli elementi modificati dal Client in una data compresa tra le due passate come parametri
  
  5. ***(GET) search_nomeMeta?body="nomefile"***
-Restituisce il JSON contenente tutti gli elementi che hanno iniziale del nome (o nome completo) uguale a quello passato come parametro
+Restituisce il JSON contenente tutti gli elementi che hanno nome (o parte iniziale di esso) uguale a quello passato come parametro
 
 
 
@@ -57,5 +57,5 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDQ5OTcyNSwtMTYxMjQxMzUwNV19
+eyJoaXN0b3J5IjpbMTQ1MTMzNjQ5NSwtMTYxMjQxMzUwNV19
 -->
