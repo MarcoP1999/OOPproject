@@ -3,14 +3,15 @@
 
 Il progetto proposto consente di ricercare file in base al nome, alla data di modifica o al tipo di file (pnj, jpg, jpeg, tiff) ricevendo statistiche riguardo la dimensione 
 
-Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET , di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON
+Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET , di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON.
+
 Una volta avviato il programma, il servizio sarà disponibile all'indirizzo http://localhost:8080/
 
 I dati in ingresso sono stati prelevati grazie alle API di dropbox 
  - #file-search
  - #files-get_metadata
 
-La prima restituisce un oggetto di tipo JSONObject contenente un JSONArray relativo a più elementi, mentre la seconda restituisce un  JSONObject relativo ad un unico elemento
+La prima restituisce un oggetto di tipo JSONObject contenente un JSONArray relativo a più elementi, mentre la seconda restituisce un  JSONObject relativo ad un unico elemento.
 Perciò è stato necessario creare un ciclo per iterare il processo di parsing dei dati ricevuti con l'API get_metadata e creare un JSONArray in modo da ottenere un buon quantitativo di dati per l'elaborazione. 
 Proprio per questo motivo sono state create due classi distinte per l'elaborazione dei dati, una che presenta i metodi per lavorare con un JSONObject, l'altra con metodi relativi ad un JSONArray  
 
@@ -56,5 +57,5 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI0MTM1MDVdfQ==
+eyJoaXN0b3J5IjpbMTEyNDQ5OTcyNSwtMTYxMjQxMzUwNV19
 -->
