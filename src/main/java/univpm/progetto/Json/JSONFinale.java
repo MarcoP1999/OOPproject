@@ -4,6 +4,14 @@ import org.json.simple.JSONArray;
 
 import univpm.progetto.FiltrieStatistiche.JSONStatistiche;
 
+/**
+ * Classe che rappresenta il JSON che viene restituito al client comprendente elementi 
+ * ricercati + statistiche relative ad essi
+ * 
+ * @author Proietti Marco
+ * @author Traini Davide
+ */
+
 public class JSONFinale {
 	
 	public JSONArray elementi;

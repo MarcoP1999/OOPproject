@@ -17,12 +17,26 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.json.simple.parser.ParseException;
 
+/**
+ * Classe che contiene i metodi per il parsing del JSON, distinti in base alla richiesta 
+ * fatta dal client
+ * @author Proietti Marco
+ * @author Traini Davide
+ */
+ 
 public class JSONparse {	
 	
-	
+	/**
+	 * Tale classe compie diverse chiamate all'indirizzo "https://api.dropboxapi.com/2/files/get_metadata"
+	 * immagazzinando i vari JSON all'interno all'interno di un array
+	 * 
+	 * @return array è il JSONArray contenente tutti gli elementi sottoposti al parsing 
+	 */
 	public JSONArray returnMetadataJson() {
 		JSONArray array = new JSONArray();
 			String url = "https://api.dropboxapi.com/2/files/get_metadata";
+			
+			// sono le stringhe rappresentanti i vari percorsi dei file all'interno di DROPBOX
 			String meta1 = "{\r\n" + 
 					"    \"path\": \"/Applicazioni/AppOOP2/App/App/BOB.jpg\",\r\n" + 
 					"    \"include_media_info\": true,\r\n" + 
@@ -90,6 +104,7 @@ public class JSONparse {
 					byte[] input = jsonBody.getBytes("utf-8");
 					os.write(input, 0, input.length);
 				}
+				// entro se non è possibile richiedere un output al protocollo 
 				catch (UnknownServiceException e) {
 					e.printStackTrace();
 				}
@@ -105,9 +120,7 @@ public class JSONparse {
 					while ((line = buf.readLine()) != null) {
 						data += line;
 					}
-					inR.close();
-					buf.close();
-					in.close();
+				
 				} finally {
 				}
 				JSONObject json = (JSONObject) JSONValue.parseWithException(data);
@@ -139,7 +152,7 @@ public class JSONparse {
 			openConnection.setRequestProperty("Accept", "application/json");
 			openConnection.setDoOutput(true);
 			String jsonBody = "{\r\n" + 
-					"    \"query\": \"2\"\r\n" + 
+					"    \"query\": \"g\"\r\n" + 
 					"}";
 
 			try (OutputStream os = openConnection.getOutputStream()) {
