@@ -38,8 +38,9 @@ Restituisce il JSON contenente tutti gli elementi che hanno nome (o parte inizia
 
 
 
-> **search**
+**search**
 
+ 
 
  1. ***(GET) search_tipo_dim?corpo="formato"&corpo"operatore"=&corpo="dimensione"***
 Restituisce il JSON contenente tutti gli elementi che rispettano il formato e la dimensione (passati come parametri). Riporta inoltre dimensione minima, media e massima dei file cercati
@@ -56,6 +57,6 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTEzNzQ4MywxNDUxMzM2NDk1LC0xNj
+eyJoaXN0b3J5IjpbMTQ1MTMzNjQ5NSwxNDUxMzM2NDk1LC0xNj
 EyNDEzNTA1XX0=
 -->
