@@ -54,10 +54,10 @@ Restituisce il JSON contenente tutti gli elementi che hanno iniziale del nome (o
 
 Abbiamo deciso di non utilizzare un Model in cui immagazzinare gli elementi più rilevanti, ma di andare a lavorare direttamente con il JSON ricevuto dopo il parsing. 
 L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi sono stati copiati in un file per una seconda rielaborazione, così da verificare l'effettiva possibilità di reinterpretare i dati restituiti dal nostro web service. 
-
+![Diagramma casi d'uso](https://github.com/MarcoP1999/OOPproject/blob/master/NewModel%20Use%20Case%20Diagramfinale.jpg)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MT
-MzNjQ5NSwtMTYxMjQxMzUwNV19
+eyJoaXN0b3J5IjpbMTc4MTczMjYyOCw5MDM1ODYyMDUsMTQ1MT
+MzNjQ5NSwxNDUxMzM2NDk1LC0xNjEyNDEzNTA1XX0=
 -->
