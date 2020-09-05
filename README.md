@@ -56,10 +56,11 @@ Abbiamo deciso di non utilizzare un Model in cui immagazzinare gli elementi più
 L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi sono stati copiati in un file per una seconda rielaborazione, così da verificare l'effettiva possibilità di reinterpretare i dati restituiti dal nostro web service. 
 
 
-![Diagramma casi d'uso](https://github.com/MarcoP1999/OOPproject/blob/master/NewModel%20Use%20Case%20Diagramfinale.jpg)
+![*emphasized text*Diagramma casi d'uso](https://github.com/MarcoP1999/OOPproject/blob/master/NewModel%20Use%20Case%20Diagram1.jpg)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NTQxODE2LDkwMzU4NjIwNSwxNDUxMz
-M2NDk1LDE0NTEzMzY0OTUsLTE2MTI0MTM1MDVdfQ==
+eyJoaXN0b3J5IjpbLTM5NzkwMTIwMywyNTk1NDE4MTYsOTAzNT
+g2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5NSwtMTYxMjQxMzUw
+NV19
 -->
