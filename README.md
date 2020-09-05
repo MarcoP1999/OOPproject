@@ -56,7 +56,8 @@ Abbiamo deciso di non utilizzare un Model in cui immagazzinare gli elementi più
 L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi sono stati copiati in un file per una seconda rielaborazione, così da verificare l'effettiva possibilità di reinterpretare i dati restituiti dal nostro web service. 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTMzNjQ5NSwxNDUxMzM2NDk1LDE0NT
-EzMzY0OTUsLTE2MTI0MTM1MDVdfQ==
+eyJoaXN0b3J5IjpbOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MT
+MzNjQ5NSwtMTYxMjQxMzUwNV19
 -->
