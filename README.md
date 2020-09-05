@@ -55,8 +55,8 @@ Restituisce il JSON contenente tutti gli elementi che hanno iniziale del nome (o
 Abbiamo deciso di non utilizzare un Model in cui immagazzinare gli elementi più rilevanti, ma di andare a lavorare direttamente con il JSON ricevuto dopo il parsing. 
 L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi sono stati copiati in un file per una seconda rielaborazione, così da verificare l'effettiva possibilità di reinterpretare i dati restituiti dal nostro web service. 
 
-![Diagra](https://www.dropbox.com/h?preview=NewModel%20Use%20Case%20Diagram_0_0.jpg)
+![Diagramma  casi d'uso](https://www.dropbox.com/h?preview=NewModel%20Use%20Case%20Diagram_0_0.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NDkyMDAwLDE0NTEzMzY0OTUsMTQ1MT
-MzNjQ5NSwtMTYxMjQxMzUwNV19
+eyJoaXN0b3J5IjpbLTQ3MDY3Mjk2NSwxNDUxMzM2NDk1LDE0NT
+EzMzY0OTUsLTE2MTI0MTM1MDVdfQ==
 -->
