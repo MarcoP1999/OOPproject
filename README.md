@@ -57,17 +57,17 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
     
 
-> **Diagramma Casi D'uso**
+> ## **Diagramma Casi D'uso**
 
 ![](https://github.com/MarcoP1999/OOPproject/blob/master/NewModel%20Use%20Case%20Diagram1.jpg)
 
 
 
-> **Diagramma Classi
+> ## **Diagramma Classi**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MTE1OTMyLDI1OTU0MTgxNiw5MDM1OD
-YyMDUsMTQ1MTMzNjQ5NSwxNDUxMzM2NDk1LC0xNjEyNDEzNTA1
-XX0=
+eyJoaXN0b3J5IjpbLTE3NDU2Mzc3NjYsMjU5NTQxODE2LDkwMz
+U4NjIwNSwxNDUxMzM2NDk1LDE0NTEzMzY0OTUsLTE2MTI0MTM1
+MDVdfQ==
 -->
