@@ -68,9 +68,10 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  - **univpm.progetto.controller**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
  - **univpm.progetto.JSON**
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMjk4MDE5LDE1NDc1Mzk2OTgsLTE3ND
+eyJoaXN0b3J5IjpbMTMyNzEyODYzLDE1NDc1Mzk2OTgsLTE3ND
 U2Mzc3NjYsMjU5NTQxODE2LDkwMzU4NjIwNSwxNDUxMzM2NDk1
 LDE0NTEzMzY0OTUsLTE2MTI0MTM1MDVdfQ==
 -->
