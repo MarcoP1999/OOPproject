@@ -59,20 +59,18 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 > ## **Diagramma Casi D'uso**
 
-![](https://github.com/MarcoP1999/OOPproject/blob/master/NewModel%20Use%20Case%20Diagram1.jpg)
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/NewModel%20Use%20Case%20Diagram1.jpg)
 
 
 
 > ## **Diagramma Classi**
 
  - **univpm.progetto.controller**
-
-
-
-
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
+ - **univpm.progetto.JSON**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNT
-k1NDE4MTYsOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5
-NSwtMTYxMjQxMzUwNV19
+eyJoaXN0b3J5IjpbNjQzMjk4MDE5LDE1NDc1Mzk2OTgsLTE3ND
+U2Mzc3NjYsMjU5NTQxODE2LDkwMzU4NjIwNSwxNDUxMzM2NDk1
+LDE0NTEzMzY0OTUsLTE2MTI0MTM1MDVdfQ==
 -->
