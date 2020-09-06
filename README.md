@@ -69,10 +69,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
  - **univpm.progetto.JSON**
  ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
-- **univpm.progetto.JSON**
+- **univpm.progetto.FiltrieStatistiche**
+- ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTQwMTcwNSwtNTc5NTY5ODIxLDE1ND
-c1Mzk2OTgsLTE3NDU2Mzc3NjYsMjU5NTQxODE2LDkwMzU4NjIw
-NSwxNDUxMzM2NDk1LDE0NTEzMzY0OTUsLTE2MTI0MTM1MDVdfQ
-==
+eyJoaXN0b3J5IjpbMTMzNDA0MDIzOCwxMDM5NDAxNzA1LC01Nz
+k1Njk4MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNTk1NDE4
+MTYsOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5NSwtMT
+YxMjQxMzUwNV19
 -->
