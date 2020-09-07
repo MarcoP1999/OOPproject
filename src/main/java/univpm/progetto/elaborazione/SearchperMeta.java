@@ -101,7 +101,7 @@ public class SearchperMeta {
 			}
 		} else {
 			throw new FormatoNonTrovatoException(
-					"inserire un formato supportato (jpg,png o tiff) come primo parametro");
+					"inserire un formato supportato (jpg,png,jpeg o tiff) come primo parametro");
 		}
 
 		return finale;
