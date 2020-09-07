@@ -28,10 +28,11 @@ public class JSONparse {
 	
 	/**
 	 * Tale classe compie diverse chiamate all'indirizzo "https://api.dropboxapi.com/2/files/get_metadata"
-	 * immagazzinando i vari JSON all'interno all'interno di un array
+	 * immagazzinando i vari JSON all'interno di un array
 	 * 
 	 * @return array è il JSONArray contenente tutti gli elementi sottoposti al parsing 
 	 */
+	
 	public JSONArray returnMetadataJson() {
 		JSONArray array = new JSONArray();
 			String url = "https://api.dropboxapi.com/2/files/get_metadata";
@@ -80,7 +81,7 @@ public class JSONparse {
 					"    \"include_has_explicit_shared_members\": true\r\n" + 
 					"}";
 			String meta8 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/cervo.jpg\",\r\n" + 
+					"    \"path\": \"/Applicazioni/AppOOP2/App/App/cervo1.jpg\",\r\n" + 
 					"    \"include_media_info\": true,\r\n" + 
 					"    \"include_deleted\": false,\r\n" + 
 					"    \"include_has_explicit_shared_members\": true\r\n" + 
@@ -127,6 +128,7 @@ public class JSONparse {
 				array.add(json);
 				}
 				return array;
+				// entro se ci sono stati problemi con flussoIO o problemi generici
 			} catch (IOException | ParseException e1) {
 				e1.printStackTrace();
 			} catch (Exception e) {
@@ -137,7 +139,11 @@ public class JSONparse {
 	
 	
 	
-	
+	/**
+	 * Tale classe compie una chiamata all'indirizzo "https://api.dropboxapi.com/2/files/search_v2"
+	 * 
+	 * @return json è il JSONObject contenente tutti gli elementi sottoposti al parsing 
+	 */
 	
 	public JSONObject returnSearchJson() {
 	    String url = "https://api.dropboxapi.com/2/files/search_v2";
@@ -152,13 +158,14 @@ public class JSONparse {
 			openConnection.setRequestProperty("Accept", "application/json");
 			openConnection.setDoOutput(true);
 			String jsonBody = "{\r\n" + 
-					"    \"query\": \"g\"\r\n" + 
+					"    \"query\": \"1\"\r\n" + 
 					"}";
 
 			try (OutputStream os = openConnection.getOutputStream()) {
 				byte[] input = jsonBody.getBytes("utf-8");
 				os.write(input, 0, input.length);
 			}
+			// entro se non è possibile richiedere un output al protocollo 
 			catch (UnknownServiceException e) {
 				e.printStackTrace();
 			}
@@ -179,6 +186,7 @@ public class JSONparse {
 			}
 			JSONObject json = (JSONObject) JSONValue.parseWithException(data);
 			return json;
+			// entro se ci sono stati problemi con flussoIO o problemi generici
 		} catch (IOException | ParseException e1) {
 			e1.printStackTrace();
 		} catch (Exception e) {

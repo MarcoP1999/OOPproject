@@ -49,7 +49,7 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_tipo_dim_altezzalarghezzaMeta")
-	public JSONFinale esempio1Meta(@RequestParam List<String> corpo)
+	public JSONFinale alt_largh_Meta(@RequestParam List<String> corpo)
 			throws FormatoNonTrovatoException, ParametriErratiException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.TipoDiFileParametri(corpo);
@@ -78,7 +78,7 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_tipo_dimMeta")
-	public JSONFinale esempio2Meta(@RequestParam List<String> corpo)
+	public JSONFinale dim_Meta(@RequestParam List<String> corpo)
 			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.TipoDiFile(corpo);
@@ -87,6 +87,24 @@ public class SimpleRestController {
 		statistiche = stats.StatisticaDimensioneMeta(obj2);
 		JSONFinale finale = new JSONFinale(obj2, statistiche);
 		return finale;
+	}
+	
+	/**
+	 * Risponde alla richiesta (GET) /search_nomeMeta
+	 * 
+	 * @param corpo è una String composta un elemento inserito come parametro
+	 * tramite postman, esso rappresenta il nome, o i primi caratteri del nome di un file 
+	 * ricercato
+	 *              
+	 * @return JSONArray comprendente elementi cercati 
+	 * 
+	 */
+
+	@GetMapping("/search_nomeMeta")
+	public JSONArray nome_Meta(@RequestParam String body) {
+		SearchperMeta cerca = new SearchperMeta();
+		JSONArray obj2 = cerca.NomeFile(body);
+		return obj2;
 	}
 	
 	/**
@@ -105,29 +123,13 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_dataMeta")
-	public JSONArray esempio3Meta(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
+	public JSONArray data_Meta(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.Data(corpo);
 		return obj2;
 	}
 	
-	/**
-	 * Risponde alla richiesta (GET) /search_nomeMeta
-	 * 
-	 * @param corpo è una String composta un elemento inserito come parametro
-	 * tramite postman, esso rappresenta il nome, o i primi caratteri del nome di un file 
-	 * ricercato
-	 *              
-	 * @return JSONArray comprendente elementi cercati 
-	 * 
-	 */
-
-	@GetMapping("/search_nomeMeta")
-	public JSONArray esempio4Meta(@RequestParam String body) {
-		SearchperMeta cerca = new SearchperMeta();
-		JSONArray obj2 = cerca.NomeFile(body);
-		return obj2;
-	}
+	
 	
 	/**
 	 * Risponde alla richiesta (GET) /search_tipo_dim
@@ -147,7 +149,7 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_tipo_dim")
-	public JSONFinale esempio1(@RequestParam List<String> corpo)
+	public JSONFinale dim(@RequestParam List<String> corpo)
 			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.TipoDiFile(corpo);
@@ -170,7 +172,7 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_nome")
-	public JSONArray esempio2(@RequestParam String body) {
+	public JSONArray nome(@RequestParam String body) {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.NomeFile(body);
 		return obj2;
@@ -193,7 +195,7 @@ public class SimpleRestController {
 	 */
 	
 	@GetMapping("/search_data")
-	public JSONArray esempio3(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
+	public JSONArray data(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.Data(corpo);
 		return obj2;

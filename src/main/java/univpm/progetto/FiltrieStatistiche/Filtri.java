@@ -54,56 +54,32 @@ public class Filtri {
 	
 	/**
 	 * Metodo per verificare che l'elemento in analisi sia stato modificato nell'intervallo di date giusto
-	 * 
-	 * @param anno1 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param anno2 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param anno3 intero ottenuto dal parsing di parte della stringa "modified" relativa all'elemento in analisi 
-	 * @param mese1 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param mese2 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param mese3 intero ottenuto dal parsing di parte della stringa "modified" relativa all'elemento in analisi 
-	 * @param giorno1 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param giorno2 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param giorno3 intero ottenuto dal parsing di parte della stringa "modified" relativa all'elemento in analisi 
+	 * @param c1 è la prima data inserita
+	 * @param c2 è la seconda data inserita
+	 * @param c3 è la data relativa all'elemento che si sta considerando nel ciclo 
+	 *  
 	 * @return boolean che indica se la stringa rispetta o meno le condizioni 
 	 */
-	public Boolean FiltroData(int anno1, int anno2, int anno3, int mese1, int mese2, int mese3, int giorno1,
-			int giorno2, int giorno3) {
+	public Boolean FiltroData(Calendar c1, Calendar c2, Calendar c3) {
 		
-		Boolean cont = false;
 		
-		 Calendar calndr1
-         = new GregorianCalendar(anno1, mese1, giorno1);
-		 Calendar calndr2
-         = new GregorianCalendar(anno2, mese2, giorno2);
-		 Calendar calndr3
-         = new GregorianCalendar(anno3, mese3, giorno3);
+		if(c1.compareTo(c3)>=0 && c3.compareTo(c2)>=0) return true;
 		
-		if(calndr1.compareTo(calndr3)>=0 && calndr3.compareTo(calndr2)>=0) cont = true;
-		
-		return cont;
+		return false;
 	}
 
 	
 	/***
-	 * Metodo per verificare che le date siano inserite in ordine giusto 
+	 * Metodo per verificare che le date siano inserite in ordine giusto(prima la maggiore)
 	 * 
-	 * @param anno1 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param anno2 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param mese1 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param mese2 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param giorno1 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @param giorno2 intero ottenuto dal parsing di parte della stringa inserita dall'utente 
-	 * @return
+	 * @param c1 è la prima data inserita
+	 * @param c2 è la seconda data inserita
+	 * 
+	 * @return Boolean che indica se le date sono state inserite in ordine giusto
 	 */
-	public boolean FiltroParametri(int anno1, int anno2, int mese1, int mese2, int giorno1, int giorno2) {
-
+	public boolean FiltroParametri(Calendar c1, Calendar c2) {
 		 
-		Calendar calndr1
-        = new GregorianCalendar(anno1, mese1, giorno1);
-		 Calendar calndr2
-        = new GregorianCalendar(anno2, mese2, giorno2);
-		 
-		 if (calndr1.compareTo(calndr2)<0) return false;
+		 if (c1.compareTo(c2)<0) return false;
 		
 		return true;
 	}

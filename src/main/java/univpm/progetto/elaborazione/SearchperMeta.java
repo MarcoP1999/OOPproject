@@ -1,6 +1,8 @@
 package univpm.progetto.elaborazione;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.json.simple.JSONArray;
@@ -202,9 +204,13 @@ public class SearchperMeta {
 			throw new FailDataException("Scrivere una data corretta");
 		}
 		
+		Calendar calndr1
+        = new GregorianCalendar(anno1, mese1, giorno1);
+		 Calendar calndr2
+        = new GregorianCalendar(anno2, mese2, giorno2);
 		Filtri data = new Filtri();
 		// restituisce errore se la prima data precede la seconda 
-		if (!data.FiltroParametri(anno1, anno2, mese1, mese2, giorno1, giorno2)) {
+		if (!data.FiltroParametri(calndr1,calndr2)) {
 			throw new FailDataException("inserire nuovamente i parametri in modo che il primo rappresenti la data maggiore ed il secondo quella inferiore");
 		}
 
@@ -239,8 +245,10 @@ public class SearchperMeta {
 					throw new NumberFormatException();
 				}
 				
+				 Calendar calndr3
+		         = new GregorianCalendar(anno3, mese3, giorno3);
 				// restituisce true solo se la data dell'elemento in esame è compresa tra le due inserite
-				Boolean cont = data.FiltroData(anno1, anno2, anno3, mese1, mese2, mese3, giorno1, giorno2, giorno3);
+				Boolean cont = data.FiltroData(calndr1,calndr2,calndr3);
 
 				
 				if (cont)
