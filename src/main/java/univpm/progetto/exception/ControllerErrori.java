@@ -27,7 +27,7 @@ public class ControllerErrori {
 	@ExceptionHandler(FailDataException.class)
 	@ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-	public Model handleFailDataException(FailDataException e) {
+	public Model handlerFailDataException(FailDataException e) {
 		Model errore = new Model(e.getMessage());
 		return errore;
 	}
@@ -42,7 +42,7 @@ public class ControllerErrori {
 	@ExceptionHandler(FailDimException.class)
 	@ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-	public Model handleFailDimException(FailDimException e) {
+	public Model handlerFailDimException(FailDimException e) {
 		Model errore = new Model(e.getMessage());
 		return errore;
 		
@@ -57,7 +57,7 @@ public class ControllerErrori {
 	@ExceptionHandler(FormatoNonTrovatoException.class)
 	@ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-	public Model handleFormatoNonTrovatoException(FormatoNonTrovatoException e) {
+	public Model handlerFormatoNonTrovatoException(FormatoNonTrovatoException e) {
 		Model errore = new Model(e.getMessage());
 		return errore;
 		
