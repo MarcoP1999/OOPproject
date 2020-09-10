@@ -104,9 +104,9 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_nomeMeta")
-	public JSONArray nome_Meta(@RequestParam String body) throws ErroreFileException {
+	public JSONArray nome_Meta(@RequestParam String corpo) throws ErroreFileException {
 		SearchperMeta cerca = new SearchperMeta();
-		JSONArray obj2 = cerca.NomeFile(body);
+		JSONArray obj2 = cerca.NomeFile(corpo);
 		return obj2;
 	}
 	
@@ -178,9 +178,9 @@ public class SimpleRestController {
 	 */
 
 	@GetMapping("/search_nome")
-	public JSONArray nome(@RequestParam String body) throws ErroreFileException {
+	public JSONArray nome(@RequestParam String corpo) throws ErroreFileException {
 		Searchper cerca = new Searchper();
-		JSONArray obj2 = cerca.NomeFile(body);
+		JSONArray obj2 = cerca.NomeFile(corpo);
 		return obj2;
 	}
 
