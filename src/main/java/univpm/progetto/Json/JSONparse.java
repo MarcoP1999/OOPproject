@@ -48,7 +48,6 @@ public class JSONparse {
 				while(inp.hasNextLine()) {
 					Json += inp.nextLine();
 				}
-					String string = "";
 					JSONObject path = (JSONObject) JSONValue.parseWithException(Json);
 					list = (JSONArray) path.get("JSON");
 					
