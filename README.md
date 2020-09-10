@@ -32,10 +32,10 @@ Restituisce il JSON contenente tutti gli elementi che rispettano formato, altezz
 
 
  3. ***(GET) search_dataMeta?corpo="data"&corpo="data"***
-Restituisce il JSON contenente tutti gli elementi modificati dal Client in una data compresa tra le due passate come parametri
+Restituisce il JSON contenente tutti gli elementi modificati dal Client in una data compresa tra le due passate come parametri.
  
  5. ***(GET) search_nomeMeta?body="nomefile"***
-Restituisce il JSON contenente tutti gli elementi che hanno nome (o parte iniziale di esso) uguale a quello passato come parametro
+Restituisce il JSON contenente tutti gli elementi che hanno nome (o parte iniziale di esso) uguale a quello passato come parametro.
 
 
 
@@ -44,13 +44,14 @@ Restituisce il JSON contenente tutti gli elementi che hanno nome (o parte inizia
  
 
  1. ***(GET) search_tipo_dim?corpo="formato"&corpo"operatore"=&corpo="dimensione"***
-Restituisce il JSON contenente tutti gli elementi che rispettano il formato e la dimensione (passati come parametri). Riporta inoltre dimensione dei file cercati
+Restituisce il JSON contenente tutti gli elementi che rispettano il formato e la dimensione (passati come parametri). Riporta inoltre dimensione media (geometrica e aritmetica), minima e massima
+dei file cercati.
 
  3. ***(GET) search_data?corpo="data"&corpo="data"***
-Restituisce il JSON contenente tutti gli elementi modificati dal Client in una data compresa tra le due passate come parametri
+Restituisce il JSON contenente tutti gli elementi modificati dal Client in una data compresa tra le due passate come parametri.
 
  3. ***(GET) search_nome?body="nomefile"***
-Restituisce il JSON contenente tutti gli elementi che hanno iniziale del nome (o nome completo) uguale a quello passato come parametro
+Restituisce il JSON contenente tutti gli elementi che hanno iniziale del nome (o nome completo) uguale a quello passato come parametro.
 
 
 Abbiamo deciso di non utilizzare un Model in cui immagazzinare gli elementi più rilevanti, ma di andare a lavorare direttamente con il JSON ricevuto dopo il parsing. 
@@ -73,9 +74,9 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 - **univpm.progetto.FiltrieStatistiche**
 - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mzk5OTA4OSwxODYwMjIzMTQzLC00ND
-g2MjY5ODQsNjAyMTUzNjQwLDEzMzQwNDAyMzgsMTAzOTQwMTcw
-NSwtNTc5NTY5ODIxLDE1NDc1Mzk2OTgsLTE3NDU2Mzc3NjYsMj
-U5NTQxODE2LDkwMzU4NjIwNSwxNDUxMzM2NDk1LDE0NTEzMzY0
-OTUsLTE2MTI0MTM1MDVdfQ==
+eyJoaXN0b3J5IjpbMTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0OD
+YyNjk4NCw2MDIxNTM2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1
+LC01Nzk1Njk4MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNT
+k1NDE4MTYsOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5
+NSwtMTYxMjQxMzUwNV19
 -->
