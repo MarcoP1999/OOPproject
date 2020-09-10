@@ -13,7 +13,7 @@ I dati in ingresso sono stati prelevati grazie alle API di dropbox
 
 La prima restituisce un oggetto di tipo JSONObject contenente un JSONArray relativo a più elementi, mentre la seconda restituisce un  JSONObject relativo ad un unico elemento.
 Perciò è stato necessario creare un file contenente i path relativi a diversi elementi salvati nell'account Dropbox (https://github.com/MarcoP1999/OOPproject/blob/master/JSONPath.txt) scritti sotto forma di JSONArray. 
-È stato poi generato un ciclo per scorrere il JSONArray e sfrutta i path contenuti per iterare la chiamata a metadata il processo di parsing dei dati ricevuti con l'API get_metadata e creare un JSONArray in modo da ottenere un buon quantitativo di dati per l'elaborazione. 
+È stato poi generato un ciclo per scorrere il JSONArray e sfrutta i path contenuti per iterare la chiamata a get_metadata la quale restituisce il JSONObject relativo ad ogni elemenr processo di parsing dei dati ricevuti con l'API get_metadata e creare un JSONArray in modo da ottenere un buon quantitativo di dati per l'elaborazione. 
 Proprio per questo motivo sono state create due classi distinte per l'elaborazione dei dati, una che presenta i metodi per lavorare con un JSONObject, l'altra con metodi relativi ad un JSONArray  
 
 
@@ -73,9 +73,9 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 - **univpm.progetto.FiltrieStatistiche**
 - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTU2NzIzMSwtNDQ4NjI2OTg0LDYwMj
-E1MzY0MCwxMzM0MDQwMjM4LDEwMzk0MDE3MDUsLTU3OTU2OTgy
-MSwxNTQ3NTM5Njk4LC0xNzQ1NjM3NzY2LDI1OTU0MTgxNiw5MD
-M1ODYyMDUsMTQ1MTMzNjQ5NSwxNDUxMzM2NDk1LC0xNjEyNDEz
-NTA1XX0=
+eyJoaXN0b3J5IjpbLTE5OTIwNDgyMDIsLTQ0ODYyNjk4NCw2MD
+IxNTM2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1LC01Nzk1Njk4
+MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNTk1NDE4MTYsOT
+AzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5NSwtMTYxMjQx
+MzUwNV19
 -->
