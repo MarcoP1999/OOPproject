@@ -1,6 +1,7 @@
 package univpm.progetto.Json;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -8,14 +9,14 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.UnknownServiceException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Scanner;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.json.simple.parser.ParseException;
+
+import univpm.progetto.exception.ErroreFileException;
 
 /**
  * Classe che contiene i metodi per il parsing del JSON, distinti in base alla richiesta 
@@ -31,65 +32,26 @@ public class JSONparse {
 	 * immagazzinando i vari JSON all'interno di un array
 	 * 
 	 * @return array è il JSONArray contenente tutti gli elementi sottoposti al parsing 
+	 * @throws ErroreFileException  se il file è scritto in modo errato 
 	 */
 	
-	public JSONArray returnMetadataJson() {
-		JSONArray array = new JSONArray();
+	public JSONArray returnMetadataJson() throws ErroreFileException {
+
+			JSONArray array = new JSONArray();
 			String url = "https://api.dropboxapi.com/2/files/get_metadata";
-			
-			// sono le stringhe rappresentanti i vari percorsi dei file all'interno di DROPBOX
-			String meta1 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/BOB.jpg\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta2 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/medioevo.jpg\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta3 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/genji.tiff\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta4 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/fisica1.jpeg\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta5 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/fisica2.jpeg\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta6 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/app.png\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta7 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/fotoposte.jpg\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			String meta8 = "{\r\n" + 
-					"    \"path\": \"/Applicazioni/AppOOP2/App/App/cervo1.jpg\",\r\n" + 
-					"    \"include_media_info\": true,\r\n" + 
-					"    \"include_deleted\": false,\r\n" + 
-					"    \"include_has_explicit_shared_members\": true\r\n" + 
-					"}";
-			
-			List<String> list = new ArrayList<>(Arrays.asList(meta1,meta2,meta3,meta4,meta5,meta6,meta7,meta8));
-			
+			JSONArray list = new JSONArray();
+			// leggo da file i vari percorsi che rappresentano gli elementi all'interno di DROPBOX
+			File inFile = new File("JSONPath.txt");
 			try {
+				Scanner inp = new Scanner(inFile);
+				String Json = "";
+				while(inp.hasNextLine()) {
+					Json += inp.nextLine();
+				}
+					String string = "";
+					JSONObject path = (JSONObject) JSONValue.parseWithException(Json);
+					list = (JSONArray) path.get("JSON");
+					
 				for (int i=0;i<list.size();i++) {
 				HttpURLConnection openConnection = (HttpURLConnection) new URL(url).openConnection();
 				openConnection.setRequestMethod("POST");
@@ -100,7 +62,11 @@ public class JSONparse {
 				openConnection.setDoOutput(true);
 				
 				
-					String jsonBody = list.get(i);
+				
+				JSONObject obj = (JSONObject) list.get(i);
+				String jsonBody = "{\"path\":\""  + obj.get("path")  + "\",\"include_media_info\":" + obj.get("include_media_info") + "}";
+				
+				
 				try (OutputStream os = openConnection.getOutputStream()) {
 					byte[] input = jsonBody.getBytes("utf-8");
 					os.write(input, 0, input.length);
@@ -109,33 +75,34 @@ public class JSONparse {
 				catch (UnknownServiceException e) {
 					e.printStackTrace();
 				}
-
+				
 				InputStream in = openConnection.getInputStream();
 
 				String data = "";
 				String line = "";
-				try {
+
 					InputStreamReader inR = new InputStreamReader(in);
 					BufferedReader buf = new BufferedReader(inR);
 
 					while ((line = buf.readLine()) != null) {
 						data += line;
 					}
+					in.close();
+					inp.close();
 				
-				} finally {
-				}
+					
 				JSONObject json = (JSONObject) JSONValue.parseWithException(data);
 				array.add(json);
 				}
 				return array;
 				// entro se ci sono stati problemi con flussoIO o problemi generici
 			} catch (IOException | ParseException e1) {
-				e1.printStackTrace();
+				throw new ErroreFileException("Inserire in modo corretto gli elementi nel file, in modo che sia presente un array di JSON ognuno costituito da 2 elementi: path (String) e include_media_info (Boolean)");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 			return null;
-		}
+	}
 	
 	
 	
@@ -143,9 +110,10 @@ public class JSONparse {
 	 * Tale classe compie una chiamata all'indirizzo "https://api.dropboxapi.com/2/files/search_v2"
 	 * 
 	 * @return json è il JSONObject contenente tutti gli elementi sottoposti al parsing 
+	 * @throws ErroreFileException se ci sono problemi legati al parsing o alla gestione di I/O
 	 */
 	
-	public JSONObject returnSearchJson() {
+	public JSONObject returnSearchJson() throws ErroreFileException {
 	    String url = "https://api.dropboxapi.com/2/files/search_v2";
 		
 		try {
@@ -188,7 +156,7 @@ public class JSONparse {
 			return json;
 			// entro se ci sono stati problemi con flussoIO o problemi generici
 		} catch (IOException | ParseException e1) {
-			e1.printStackTrace();
+			throw new ErroreFileException("Inserire in modo corretto gli elementi nel file, in modo che sia presente un array di JSON ognuno costituito da 2 elementi: path (String) e include_media_info (Boolean)");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

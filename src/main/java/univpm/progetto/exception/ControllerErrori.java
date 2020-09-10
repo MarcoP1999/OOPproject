@@ -77,5 +77,19 @@ public class ControllerErrori {
 		return errore;
 	}
 	
+	/**
+	 * Chiamato quando si deve gestire l'eccezione ErroreFileException
+	 * @param e è il tipo di eccezione lanciata
+	 * @return errore restituisce un messaggio di errore personalizzato
+	 */
+	
+	@ExceptionHandler(ErroreFileException.class)
+	@ResponseBody
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+	public Model handlerErroreFileException(ErroreFileException e) {
+		Model errore = new Model(e.getMessage());
+		return errore;
+	}
+	
 
 }

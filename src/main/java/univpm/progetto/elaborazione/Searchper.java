@@ -1,7 +1,6 @@
 package univpm.progetto.elaborazione;
 
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 import org.json.simple.JSONArray;
@@ -9,10 +8,12 @@ import org.json.simple.JSONObject;
 
 import univpm.progetto.FiltrieStatistiche.Filtri;
 import univpm.progetto.Json.JSONparse;
+import univpm.progetto.exception.ErroreFileException;
 import univpm.progetto.exception.FailDataException;
 import univpm.progetto.exception.FailDimException;
 import univpm.progetto.exception.FormatoNonTrovatoException;
 import univpm.progetto.exception.ParametriErratiException;
+import univpm.progetto.verifiche.Verifica;
 
 
 /**
@@ -26,17 +27,19 @@ import univpm.progetto.exception.ParametriErratiException;
 public class Searchper {
 
 	/**
-	 * 
+	 * Chiamata quando si intende ricercare in base a formato e dimensione
 	 * @param string è una List di String che contiene: formato,operatore,dimensione
 	 * @return JSONArray contenente gli elementi ricercati 
 	 * @throws FormatoNonTrovatoException se il formato inserito non è supportato 
 	 * @throws ParametriErratiException se i parametri sono stati inseriti in ordine errato
 	 * @throws FailDimException se il tipo inserito è diverso da quello richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 
-	public JSONArray TipoDiFile(List<String> string) throws FormatoNonTrovatoException, ParametriErratiException, FailDimException {
+	public JSONArray TipoDiFile(List<String> string) throws FormatoNonTrovatoException, ParametriErratiException, FailDimException, ErroreFileException {
 		
-		
+		Verifica verifica = new Verifica();
+		Filtri filtro = new Filtri();
 		Long in = (long) 0;
 		String tipo = "";
 		String op = "";
@@ -48,76 +51,70 @@ public class Searchper {
 		} catch (NumberFormatException e) {
 			throw new FailDimException("inserire un parametro intero come terzo parametro");
 		}
-		// se l'operatore è diverso da quelli ammessi restituisce un erroe  
-		if (!op.equals("<=") && !op.equals("<") && !op.equals("=") && !op.equals(">") && !op.equals(">=")) {
-			throw new ParametriErratiException("inserire un operatore d'ordine come secondo parametro");
-		}
+		
+		// se l'operatore è diverso da quelli ammessi restituisce un errore  
+		verifica.VerificaOperatore(op);
+		// se il formato inserito non è compatibile con quelli gestiti restituisce un erroe  
+		verifica.VerificaFormato(tipo);
 
 		JSONArray finale = new JSONArray();
-		// se il formato inserito non è compatibile con quelli gestiti restituisce un erroe  
-		if (tipo.contentEquals("jpg") || tipo.contentEquals("png") || tipo.contentEquals("tiff") || tipo.contentEquals("jpeg")) {
-
-			JSONObject meta = new JSONObject();
-			JSONObject metadata1 = new JSONObject();
-			JSONObject metadata2 = new JSONObject();
-			String nome = "";
-			Long dimensione = (long) 0;
-			// JSONParse è la classe che si occupa di scaricare il dataset grazie alle API 
-			JSONparse json2 = new JSONparse();
-			JSONObject obj2 = json2.returnSearchJson();
+		JSONObject meta = new JSONObject();
+		JSONObject metadata1 = new JSONObject();
+		JSONObject metadata2 = new JSONObject();
+		String nome = "";
+		Long dimensione = (long) 0;
+		// JSONParse è la classe che si occupa di scaricare il dataset grazie alle API 
+		JSONparse json2 = new JSONparse();
+		JSONObject obj2 = json2.returnSearchJson();
 			
-			// tale riscrittura consentirà un più semplice controllo del tipo 
-			if (tipo.contentEquals("jpg"))
-				tipo = ".jpg";
-			if (tipo.contentEquals("jpg"))
-				tipo = ".jpeg";
-			if (tipo.contentEquals("png"))
-				tipo = ".png";
-			if (tipo.contentEquals("tiff"))
-				tipo = ".tiff";
+		// tale riscrittura consentirà un più semplice controllo del tipo 
+		if (tipo.contentEquals("jpg"))
+			tipo = ".jpg";
+		if (tipo.contentEquals("jpg"))
+			tipo = ".jpeg";
+		if (tipo.contentEquals("png"))
+			tipo = ".png";
+		if (tipo.contentEquals("tiff"))
+			tipo = ".tiff";
 
-			JSONArray array = (JSONArray) obj2.get("matches");
+		JSONArray array = (JSONArray) obj2.get("matches");
 			
-			// in ogni cella è presente un json relativo ad un elemento da esaminare 
-			for (int i = 0; i < array.size(); i++) {
-				meta = (JSONObject) array.get(i);
-				metadata1 = (JSONObject) meta.get("metadata");
-				metadata2 = (JSONObject) metadata1.get("metadata");
-				nome = (String) metadata2.get("name");
-				dimensione = (Long) metadata2.get("size");
-				String fine = "";
+		// in ogni cella è presente un json relativo ad un elemento da esaminare 
+		for (int i = 0; i < array.size(); i++) {
+			meta = (JSONObject) array.get(i);
+			metadata1 = (JSONObject) meta.get("metadata");
+			metadata2 = (JSONObject) metadata1.get("metadata");
+			nome = (String) metadata2.get("name");
+			dimensione = (Long) metadata2.get("size");
+			String fine = "";
 				
-				Filtri filtro = new Filtri();
-				// tale metodo restituisce true solo se la dimensione rispetta le richieste
-				Boolean dim = filtro.FiltroDimensione(in, dimensione, op);
-				if (dim) {
-					// non faccio nulla se il nome esaminato è più corto di quello cercato
-					if (nome.length() > tipo.length()) {
-						fine = nome.substring(nome.length() - tipo.length());
-						if (fine.equals(tipo))
-							finale.add(meta);
+			// tale metodo restituisce true solo se la dimensione rispetta le richieste
+			Boolean dim = filtro.FiltroDimensione(in, dimensione, op);
+			if (dim) {
+				// non faccio nulla se il nome esaminato è più corto di quello cercato
+				if (nome.length() > tipo.length()) {
+					fine = nome.substring(nome.length() - tipo.length());
+					if (fine.equals(tipo))
+						finale.add(meta);
 
 					}
 				}
 
 			}
-		} else {
-			throw new FormatoNonTrovatoException(
-					"inserire un formato supportato (jpg, png, jpeg o tiff) come primo parametro");
-		}
 
 		return finale;
 
 	}
 	
 	/**
-	 * 
+	 * Chiamata quando si intende ricercare in base a nome o parte di esso
 	 * @param body: una String che rappresenta il nome cercato (o parte iniziale del nome)
 	 * @return JSONArray contenente gli elementi ricercati 
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 	
 
-	public JSONArray NomeFile(String body) {
+	public JSONArray NomeFile(String body) throws ErroreFileException {
 
 		String nomeinput = body.toLowerCase();
 
@@ -159,15 +156,16 @@ public class Searchper {
 	}
 
 	/**
-	 * 
+	 * Chiamata quando si intende ricercare in base alla data di modifica
 	 * @param body: List contenente le due date con cui filtrare i dati
 	 * @return JSONArray contenente gli elementi modificati in data compresa tra le due in ingresso
 	 * @throws FailDataException se la data inserita non rispetta il formato
 	 * @throws ParametriErratiException se i parametri sono inseriti in ordine errato o se 
 	 * non rispettano il tipo richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 	
-	public JSONArray Data(List<String> body) throws FailDataException, ParametriErratiException {
+	public JSONArray Data(List<String> body) throws FailDataException, ParametriErratiException, ErroreFileException {
 
 		if (body.size() > 2) {
 			throw new ParametriErratiException("inserire solamente 2 parametri");
@@ -175,15 +173,8 @@ public class Searchper {
 
 		String data1 = body.get(0);
 		String data2 = body.get(1);
-		int anno1;
-		int anno2;
-		int anno3;
-		int mese1;
-		int mese2;
-		int mese3;
-		int giorno1;
-		int giorno2;
-		int giorno3;
+		int anno1,anno2,anno3,mese1,mese2,mese3,giorno1,giorno2,giorno3;
+		
 		
 		// ritorna un errore se la data non rispetta il formato
 		if (data1.length()!=10 || data2.length()!=10) {
@@ -203,25 +194,18 @@ public class Searchper {
 			throw new FailDataException("Scrivere una data corretta");
 		}
 		
-		// entra se la data è errata
-		if (anno1 <= 0 || anno2 <= 0 || mese1 <= 0 || mese2 <= 0 || giorno1 <= 0 || giorno2 <= 0) {
-			throw new FailDataException("Scrivere una data corretta");
-		}
-		if(mese1>12 || mese2>12 || giorno1>31 || giorno2>31) {
-			throw new FailDataException("Scrivere una data corretta");
-		}
-		
+		Verifica verifica = new Verifica();
+		Filtri filtro = new Filtri();
+		// verifica la correttezza delle date e le inizializza
 		Calendar calndr1
-        = new GregorianCalendar(anno1, mese1, giorno1);
+        = verifica.VerificaEsistenza(anno1,mese1,giorno1);
 		 Calendar calndr2
-        = new GregorianCalendar(anno2, mese2, giorno2);
+        = verifica.VerificaEsistenza(anno2,mese2,giorno2);;
 		 
-		Filtri data = new Filtri();
 		
 		// restituisce errore se la prima data precede la seconda 
-		if (!data.FiltroParametri(calndr1,calndr2)) {
-			throw new ParametriErratiException("inserire nuovamente i parametri in modo che il primo rappresenti una data successiva rispetto alla seconda");
-		}
+		verifica.VerificaParametri(calndr1,calndr2);
+	
 
 		JSONArray finale = new JSONArray();
 
@@ -259,11 +243,11 @@ public class Searchper {
 				} catch (NumberFormatException e) {
 					throw new NumberFormatException();
 				}
-				
+				// verifica l'esistenza della data e restituisce la data come calendar
 				 Calendar calndr3
-			        = new GregorianCalendar(anno3, mese3, giorno3);
+			        = verifica.VerificaEsistenza(anno3, mese3, giorno3);
 				// restituisce true solo se la data dell'elemento in esame è compresa tra le due inserite
-				Boolean cont = data.FiltroData(calndr1,calndr2,calndr3);
+				Boolean cont = filtro.FiltroData(calndr1,calndr2,calndr3);
 				
 				if (cont)
 					finale.add(meta);
