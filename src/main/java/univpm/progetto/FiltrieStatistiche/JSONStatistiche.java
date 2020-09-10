@@ -9,7 +9,7 @@ package univpm.progetto.FiltrieStatistiche;
 public class JSONStatistiche {
 	
 	public Long minima;
-	public Double media_matematica;
+	public Double media_aritmetica;
 	public Double media_geometrica;
 	public Long massima;
 	
@@ -19,10 +19,10 @@ public class JSONStatistiche {
 	}
 
 
-	public JSONStatistiche(Long minima, Double media_matematica, Double media_geometrica, Long massima) {
+	public JSONStatistiche(Long minima, Double media_aritmetica, Double media_geometrica, Long massima) {
 		super();
 		this.minima = minima;
-		this.media_matematica = media_matematica;
+		this.media_matematica = media_aritmetica;
 		this.media_geometrica = media_geometrica;
 		this.massima = massima;
 	}
