@@ -1,7 +1,9 @@
-package univpm.progetto.FiltrieStatistiche;
+package univpm.progetto.FiltrieStatistiche.statistiche;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+
+import univpm.progetto.FiltrieStatistiche.JSONStatistiche;
 
 /**
  * Tale classe contiene i metodi per il calcolo delle statistiche in base alle APIs utilizzate 
@@ -37,8 +39,7 @@ public class Statistiche {
     	Long minima = dimensione;
 	    Long massima = dimensione;
 	    Long somma = dimensione;
-	    Double n = (double) (1.0/obj.size());
-	    Double mediageo = Math.pow(dimensione,n);
+	    Double mediageo = Math.pow(dimensione,1/obj.size());
 	    Double root = (double) 0;
 	    
 		for (int i=1;i<obj.size();i++) {
@@ -55,7 +56,7 @@ public class Statistiche {
 
 			somma += dimensione;			
 			
-			root = Math.pow(dimensione,n);
+			root = Math.pow(dimensione,1/obj.size());
 			mediageo = mediageo*root;	
 		}
 		
@@ -90,8 +91,7 @@ public JSONStatistiche StatisticaDimensioneMeta(JSONArray obj) {
 		Long minima = dimensione;
 	    Long massima = dimensione;
 	    Long somma = dimensione;
-		float n = obj.size();
-	    Double mediageo = Math.pow(dimensione,1/n);
+	    Double mediageo = Math.pow(dimensione,1/obj.size());
 	    Double root = (double) 0;
 	    
 		for (int i=1;i<obj.size();i++) {
@@ -104,8 +104,9 @@ public JSONStatistiche StatisticaDimensioneMeta(JSONArray obj) {
 			if (dimensione>massima)
 			massima = dimensione;
 
-			somma += dimensione;
-			root = Math.pow(dimensione,1/n);
+			somma += dimensione;			
+			
+			root = Math.pow(dimensione,1/obj.size());
 			mediageo = mediageo*root;	
 
 		}

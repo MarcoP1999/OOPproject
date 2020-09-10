@@ -1,6 +1,5 @@
 package univpm.progetto.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.json.simple.JSONArray;
@@ -14,6 +13,7 @@ import univpm.progetto.Json.JSONFinale;
 
 import univpm.progetto.elaborazione.Searchper;
 import univpm.progetto.elaborazione.SearchperMeta;
+import univpm.progetto.exception.ErroreFileException;
 import univpm.progetto.exception.FailDataException;
 import univpm.progetto.exception.FailDimException;
 import univpm.progetto.exception.FormatoNonTrovatoException;
@@ -45,12 +45,13 @@ public class SimpleRestController {
 	 * @throws FormatoNonTrovatoException se il formato richiesto non è supportato
 	 * @throws ParametriErratiException   se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 * 
 	 */
 
 	@GetMapping("/search_tipo_dim_altezzalarghezzaMeta")
 	public JSONFinale alt_largh_Meta(@RequestParam List<String> corpo)
-			throws FormatoNonTrovatoException, ParametriErratiException {
+			throws FormatoNonTrovatoException, ParametriErratiException, ErroreFileException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.TipoDiFileParametri(corpo);
 		Statistiche stats = new Statistiche();
@@ -75,11 +76,12 @@ public class SimpleRestController {
 	 * @throws ParametriErratiException   se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
 	 * @throws FailDimException se il tipo inserito è diverso da quello richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 
 	@GetMapping("/search_tipo_dimMeta")
 	public JSONFinale dim_Meta(@RequestParam List<String> corpo)
-			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException {
+			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException, ErroreFileException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.TipoDiFile(corpo);
 		Statistiche stats = new Statistiche();
@@ -97,11 +99,12 @@ public class SimpleRestController {
 	 * ricercato
 	 *              
 	 * @return JSONArray comprendente elementi cercati 
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 * 
 	 */
 
 	@GetMapping("/search_nomeMeta")
-	public JSONArray nome_Meta(@RequestParam String body) {
+	public JSONArray nome_Meta(@RequestParam String body) throws ErroreFileException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.NomeFile(body);
 		return obj2;
@@ -120,10 +123,11 @@ public class SimpleRestController {
 	 * @throws FailDataException se la data è scritta con formato errato
 	 * @throws ParametriErratiException se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 
 	@GetMapping("/search_dataMeta")
-	public JSONArray data_Meta(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
+	public JSONArray data_Meta(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException, ErroreFileException {
 		SearchperMeta cerca = new SearchperMeta();
 		JSONArray obj2 = cerca.Data(corpo);
 		return obj2;
@@ -146,11 +150,12 @@ public class SimpleRestController {
 	 * @throws ParametriErratiException   se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
 	 * @throws FailDimException se il tipo inserito è diverso da quello richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 
 	@GetMapping("/search_tipo_dim")
 	public JSONFinale dim(@RequestParam List<String> corpo)
-			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException {
+			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException, ErroreFileException {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.TipoDiFile(corpo);
 		Statistiche stats = new Statistiche();
@@ -168,11 +173,12 @@ public class SimpleRestController {
 	 * ricercato
 	 *              
 	 * @return JSONArray comprendente elementi cercati 
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 * 
 	 */
 
 	@GetMapping("/search_nome")
-	public JSONArray nome(@RequestParam String body) {
+	public JSONArray nome(@RequestParam String body) throws ErroreFileException {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.NomeFile(body);
 		return obj2;
@@ -192,10 +198,11 @@ public class SimpleRestController {
 	 * @throws FailDataException se la data è scritta con formato errato
 	 * @throws ParametriErratiException se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
+	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 	
 	@GetMapping("/search_data")
-	public JSONArray data(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
+	public JSONArray data(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException, ErroreFileException {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.Data(corpo);
 		return obj2;

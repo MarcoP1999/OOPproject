@@ -1,0 +1,55 @@
+ {"JSON" : [
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/cervo1.jpg",
+    	"include_media_info": true
+	},
+	{
+   	 "path": "/Applicazioni/AppOOP2/App/App/BOB.jpg",
+   	 "include_media_info": true
+	 },
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/medioevo.jpg",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/genji1.tiff",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/fisica1.jpeg",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/fisica2.jpeg",
+    	"include_media_info": true
+	},
+        {
+    	"path": "/Applicazioni/AppOOP2/App/App/app.png",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/fotoposte.jpg",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/sfondoPonte1.jpg",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/titan1.jpg",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/jaina.jpg",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/lol.png",
+    	"include_media_info": true
+	},
+	{
+    	"path": "/Applicazioni/AppOOP2/App/App/wowsfondo1.jpg",
+    	"include_media_info": true
+	}
+ 	]
+}

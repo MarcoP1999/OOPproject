@@ -3,6 +3,10 @@ package univpm.progetto.FiltrieStatistiche;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import univpm.progetto.exception.FailDataException;
+import univpm.progetto.exception.FormatoNonTrovatoException;
+import univpm.progetto.exception.ParametriErratiException;
+
 /**
  * Classe che contiene i metodi per filtrare le ricerche 
  * 
@@ -69,21 +73,9 @@ public class Filtri {
 	}
 
 	
-	/***
-	 * Metodo per verificare che le date siano inserite in ordine giusto(prima la maggiore)
-	 * 
-	 * @param c1 è la prima data inserita
-	 * @param c2 è la seconda data inserita
-	 * 
-	 * @return Boolean che indica se le date sono state inserite in ordine giusto
-	 */
-	public boolean FiltroParametri(Calendar c1, Calendar c2) {
-		 
-		 if (c1.compareTo(c2)<0) return false;
-		
-		return true;
-	}
 
+
+	
 	/**
 	 * Metodo per verificare se un elemento dell'array ha altezza e larghezza che rispettano le richieste
 	 * 
@@ -127,6 +119,23 @@ public class Filtri {
 
 		return false;
 		
+	}
+	
+	
+	
+	/**
+	 * 
+	 * @param tipo è il formato richiesto dall'utente
+	 * @return true se il formato è supportato
+	 * @throws FormatoNonTrovatoException se il formato non è supportato
+	 */
+	
+	public Boolean FiltroFormato(String tipo) throws FormatoNonTrovatoException {
+		
+		if (!tipo.contentEquals("jpg") && !tipo.contentEquals("png") && !tipo.contentEquals("tiff") && !tipo.contentEquals("jpeg")) {
+			throw new FormatoNonTrovatoException("inserire un formato supportato (jpg, png, jpeg o tiff) come primo parametro");
+		}
+			return true;
 	}
 
 }

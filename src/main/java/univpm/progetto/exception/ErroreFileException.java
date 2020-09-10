@@ -7,17 +7,18 @@ package univpm.progetto.exception;
  *
  */
 
-public class ParametriErratiException extends Exception {
 
-	private static final long serialVersionUID = 4L;
+public class ErroreFileException extends Exception {
 
-	public ParametriErratiException() {
+	private static final long serialVersionUID = 5L;
+
+	public ErroreFileException() {
 		super();
 	}
 
-	public ParametriErratiException(String message) {
+	public ErroreFileException(String message) {
 		super(message);
 	}
-	
+
 
 }
