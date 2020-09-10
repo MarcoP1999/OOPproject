@@ -322,7 +322,7 @@ public class SearchperMeta {
 				String fine = "";
 
 				// tale metodo restituisce true solo se la dimensione rispetta le richieste
-				Boolean flag1 = filtro.FiltroDimensione(alt, largh, altezza, larghezza, op1);
+				Boolean flag1 = filtro.FiltroAltLargh(alt, largh, altezza, larghezza, op1);
 				Boolean flag2 = filtro.FiltroDimensione(dim, size, op1);
 				if (flag1 && flag2) {
 					// non faccio nulla se il nome esaminato è più corto di quello cercato
