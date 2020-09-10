@@ -1,7 +1,7 @@
 
 ## Progetto Spring Boot 
 
-Il progetto proposto consente di ricercare file in base al nome, alla data di modifica o al tipo di file (pnj, jpg, jpeg, tiff) ricevendo statistiche riguardo la dimensione 
+Il progetto proposto consente di ricercare file in base al nome, alla data di modifica o al tipo di file (pnj, jpg, jpeg, tiff) ricevendo statistiche riguardo la dimensione. 
 
 Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET , di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON.
 
@@ -72,8 +72,8 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 - **univpm.progetto.FiltrieStatistiche**
 - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDA0MDIzOCwxMDM5NDAxNzA1LC01Nz
-k1Njk4MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNTk1NDE4
-MTYsOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5NSwtMT
-YxMjQxMzUwNV19
+eyJoaXN0b3J5IjpbNjAyMTUzNjQwLDEzMzQwNDAyMzgsMTAzOT
+QwMTcwNSwtNTc5NTY5ODIxLDE1NDc1Mzk2OTgsLTE3NDU2Mzc3
+NjYsMjU5NTQxODE2LDkwMzU4NjIwNSwxNDUxMzM2NDk1LDE0NT
+EzMzY0OTUsLTE2MTI0MTM1MDVdfQ==
 -->
