@@ -87,7 +87,7 @@ public class Filtri {
 	 * @return boolean che sta ad indicare se l'elemento rispetta altezza e laghezza richieste 
 	 */
 	
-	public Boolean FiltroDimensione(Long alt, Long largh, Long altObj, Long larghObj, String operatore) {
+	public Boolean FiltroDimAltLargh(Long alt, Long largh, Long altObj, Long larghObj, String operatore) {
 		
 		if (altObj == null) {
 			altObj = (long) 0;
