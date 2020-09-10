@@ -24,7 +24,7 @@ Perciò la tipologia di JSONObject è diversa in base a quale dato si analizza
 **get_metadata:**
 
  1. ***(GET) search_tipo_dimMeta?corpo="formato"&corpo="operatore"&corpo="dimensione"***
-Restituisce il JSON contenente tutti gli elementi che rispettano il formato e la dimensione (passati come parametri). Riporta inoltre dimensione minima, media e massima dei file cercati
+Restituisce il JSON contenente tutti gli elementi che rispettano il formato e la dimensione (passati come parametri). Riporta inoltre dimensione media (geometrica e aritmetica), minima e massima dei file cercati.
 
  2. ***(GET) search_tipo_dim_altezzalarghezzaMeta?corpo="formato"&corpo="operatore"&corpo="altezza"&corpo="larghezza"***
 Restituisce il JSON contenente tutti gli elementi che rispettano formato, altezza e larghezza (passati come parametri)  Riporta inoltre dimensione minima, media e massima
@@ -73,9 +73,9 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 - **univpm.progetto.FiltrieStatistiche**
 - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDIyMzE0MywtNDQ4NjI2OTg0LDYwMj
-E1MzY0MCwxMzM0MDQwMjM4LDEwMzk0MDE3MDUsLTU3OTU2OTgy
-MSwxNTQ3NTM5Njk4LC0xNzQ1NjM3NzY2LDI1OTU0MTgxNiw5MD
-M1ODYyMDUsMTQ1MTMzNjQ5NSwxNDUxMzM2NDk1LC0xNjEyNDEz
-NTA1XX0=
+eyJoaXN0b3J5IjpbLTUzNTI0MzAzMCwxODYwMjIzMTQzLC00ND
+g2MjY5ODQsNjAyMTUzNjQwLDEzMzQwNDAyMzgsMTAzOTQwMTcw
+NSwtNTc5NTY5ODIxLDE1NDc1Mzk2OTgsLTE3NDU2Mzc3NjYsMj
+U5NTQxODE2LDkwMzU4NjIwNSwxNDUxMzM2NDk1LDE0NTEzMzY0
+OTUsLTE2MTI0MTM1MDVdfQ==
 -->
