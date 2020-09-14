@@ -81,10 +81,10 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 > ## **Diagramma di Sequenza**
 
  - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedatameta.png)
- - **dim_Meta**[enter link description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedimmeta.png)
+ - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedimmeta.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjkyMjkwLDEzNTcyNDYyNSwxNDk4MD
+eyJoaXN0b3J5IjpbOTU5NjE2Njc0LDEzNTcyNDYyNSwxNDk4MD
 QyMDc4LC02OTEyMTIyMTIsMjYyNjIyMjE3LC0yNDMyMDk5ODks
 NTU5MDczMDU0LDg3MjcxMTUyOCwtMjEwODk5OTI1MCwtNjkxMj
 EyMjEyLDQwOTI2NTk5Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3
