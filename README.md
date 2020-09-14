@@ -78,12 +78,16 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
  - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/verifica.png)
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2Mj
-YyMjIxNywtMjQzMjA5OTg5LDU1OTA3MzA1NCw4NzI3MTE1Mjgs
-LTIxMDg5OTkyNTAsLTY5MTIxMjIxMiw0MDkyNjU5OTIsNDc3MT
-kyMjE4LDcyMzIyMzYzOSw0NzcxOTIyMTgsNzIzMjIzNjM5LC0y
-MDcwNzc2ODc1LDEwMDk3NzI5MzksMjAwNDA4ODcwNSwxNTAxOT
-Y0ODcsMTg2MDIyMzE0MywtNDQ4NjI2OTg0LDYwMjE1MzY0MF19
+> ## **Diagramma di Sequenza**
 
+ - **data_Meta**
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMDkyOTI3NSwxNDk4MDQyMDc4LC02OT
+EyMTIyMTIsMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0
+LDg3MjcxMTUyOCwtMjEwODk5OTI1MCwtNjkxMjEyMjEyLDQwOT
+I2NTk5Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3NzE5MjIxOCw3
+MjMyMjM2MzksLTIwNzA3NzY4NzUsMTAwOTc3MjkzOSwyMDA0MD
+g4NzA1LDE1MDE5NjQ4NywxODYwMjIzMTQzLC00NDg2MjY5ODRd
+fQ==
 -->
