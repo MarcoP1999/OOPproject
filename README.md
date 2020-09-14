@@ -75,14 +75,17 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 - **univpm.progetto.Json**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
  - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/verifica.png)
+
+
+
   - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNzExNTI4LC0yMTA4OTk5MjUwLC02OT
-EyMTIyMTIsNDA5MjY1OTkyLDQ3NzE5MjIxOCw3MjMyMjM2Mzks
-NDc3MTkyMjE4LDcyMzIyMzYzOSwtMjA3MDc3Njg3NSwxMDA5Nz
-cyOTM5LDIwMDQwODg3MDUsMTUwMTk2NDg3LDE4NjAyMjMxNDMs
-LTQ0ODYyNjk4NCw2MDIxNTM2NDAsMTMzNDA0MDIzOCwxMDM5ND
-AxNzA1LC01Nzk1Njk4MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2
-Nl19
+eyJoaXN0b3J5IjpbNTU5MDczMDU0LDg3MjcxMTUyOCwtMjEwOD
+k5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5Miw0NzcxOTIyMTgs
+NzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMjM2MzksLTIwNzA3Nz
+Y4NzUsMTAwOTc3MjkzOSwyMDA0MDg4NzA1LDE1MDE5NjQ4Nywx
+ODYwMjIzMTQzLC00NDg2MjY5ODQsNjAyMTUzNjQwLDEzMzQwND
+AyMzgsMTAzOTQwMTcwNSwtNTc5NTY5ODIxLDE1NDc1Mzk2OThd
+fQ==
 -->
