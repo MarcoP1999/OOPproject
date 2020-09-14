@@ -92,11 +92,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 ## Ricerca su search:
  - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_search.png)
- - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequence_nome.png)
+ - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_search.png)
  - **dim**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTI4OTYyNSwxMzk4ODg2MjQ0LC04MT
+eyJoaXN0b3J5IjpbMTQxMTk5NDU4MSwxMzk4ODg2MjQ0LC04MT
 k0Njc2NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5NjE2
 Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMTIsMj
 YyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3MjcxMTUy
