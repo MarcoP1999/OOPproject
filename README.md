@@ -83,12 +83,20 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedatameta.png)
  - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedimmeta.png)
 
+
+
+
+
+
+
+ - **
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NjE2Njc0LDEzNTcyNDYyNSwxNDk4MD
-QyMDc4LC02OTEyMTIyMTIsMjYyNjIyMjE3LC0yNDMyMDk5ODks
-NTU5MDczMDU0LDg3MjcxMTUyOCwtMjEwODk5OTI1MCwtNjkxMj
-EyMjEyLDQwOTI2NTk5Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3
-NzE5MjIxOCw3MjMyMjM2MzksLTIwNzA3NzY4NzUsMTAwOTc3Mj
-kzOSwyMDA0MDg4NzA1LDE1MDE5NjQ4NywxODYwMjIzMTQzXX0=
+eyJoaXN0b3J5IjpbLTE2NjE0MDg4ODUsOTU5NjE2Njc0LDEzNT
+cyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMTIsMjYyNjIyMjE3
+LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3MjcxMTUyOCwtMjEwOD
+k5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5Miw0NzcxOTIyMTgs
+NzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMjM2MzksLTIwNzA3Nz
+Y4NzUsMTAwOTc3MjkzOSwyMDA0MDg4NzA1LDE1MDE5NjQ4N119
 
 -->
