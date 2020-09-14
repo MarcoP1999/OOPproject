@@ -78,14 +78,14 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 ciao 
-  - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM2MDE3NTgsNTU5MDczMDU0LDg3Mj
-cxMTUyOCwtMjEwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5
-Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMj
-M2MzksLTIwNzA3NzY4NzUsMTAwOTc3MjkzOSwyMDA0MDg4NzA1
-LDE1MDE5NjQ4NywxODYwMjIzMTQzLC00NDg2MjY5ODQsNjAyMT
-UzNjQwLDEzMzQwNDAyMzgsMTAzOTQwMTcwNSwtNTc5NTY5ODIx
-XX0=
+eyJoaXN0b3J5IjpbLTI0MzIwOTk4OSw1NTkwNzMwNTQsODcyNz
+ExNTI4LC0yMTA4OTk5MjUwLC02OTEyMTIyMTIsNDA5MjY1OTky
+LDQ3NzE5MjIxOCw3MjMyMjM2MzksNDc3MTkyMjE4LDcyMzIyMz
+YzOSwtMjA3MDc3Njg3NSwxMDA5NzcyOTM5LDIwMDQwODg3MDUs
+MTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0ODYyNjk4NCw2MDIxNT
+M2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1LC01Nzk1Njk4MjFd
+fQ==
 -->
