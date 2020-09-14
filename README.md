@@ -82,21 +82,15 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
  - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedatameta.png)
  - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedimmeta.png)
-
-
-
-
-
-
-
  - **data_search**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequenze_data_search.png)
+ - **search_Nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequence_nome.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOT
-U5NjE2Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIy
-MTIsMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3Mj
-cxMTUyOCwtMjEwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5
-Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMj
-M2MzksLTIwNzA3NzY4NzUsMTAwOTc3MjkzOSwyMDA0MDg4NzA1
+eyJoaXN0b3J5IjpbLTgxOTQ2NzY2MCwtMTE2MDE2NDk4MCwtMT
+Y2MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0NjI1LDE0OTgwNDIw
+NzgsLTY5MTIxMjIxMiwyNjI2MjIyMTcsLTI0MzIwOTk4OSw1NT
+kwNzMwNTQsODcyNzExNTI4LC0yMTA4OTk5MjUwLC02OTEyMTIy
+MTIsNDA5MjY1OTkyLDQ3NzE5MjIxOCw3MjMyMjM2MzksNDc3MT
+kyMjE4LDcyMzIyMzYzOSwtMjA3MDc3Njg3NSwxMDA5NzcyOTM5
 XX0=
 -->
