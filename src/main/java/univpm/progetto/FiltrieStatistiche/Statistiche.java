@@ -90,8 +90,8 @@ public JSONStatistiche StatisticaDimensioneMeta(JSONArray obj) {
 		Long minima = dimensione;
 	    Long massima = dimensione;
 	    Long somma = dimensione;
-		float n = obj.size();
-	    Double mediageo = Math.pow(dimensione,1/n);
+	    Double n = (double) (1.0/obj.size());
+	    Double mediageo = Math.pow(dimensione,n);
 	    Double root = (double) 0;
 	    
 		for (int i=1;i<obj.size();i++) {
@@ -105,7 +105,7 @@ public JSONStatistiche StatisticaDimensioneMeta(JSONArray obj) {
 			massima = dimensione;
 
 			somma += dimensione;
-			root = Math.pow(dimensione,1/n);
+			root = Math.pow(dimensione,n);
 			mediageo = mediageo*root;	
 
 		}
