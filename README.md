@@ -73,10 +73,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
 - **univpm.progetto.FiltrieStatistiche**
 - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0OD
-YyNjk4NCw2MDIxNTM2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1
-LC01Nzk1Njk4MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNT
-k1NDE4MTYsOTAzNTg2MjA1LDE0NTEzMzY0OTUsMTQ1MTMzNjQ5
-NSwtMTYxMjQxMzUwNV19
+eyJoaXN0b3J5IjpbLTExNjkzNDI3MTgsMTUwMTk2NDg3LDE4Nj
+AyMjMxNDMsLTQ0ODYyNjk4NCw2MDIxNTM2NDAsMTMzNDA0MDIz
+OCwxMDM5NDAxNzA1LC01Nzk1Njk4MjEsMTU0NzUzOTY5OCwtMT
+c0NTYzNzc2NiwyNTk1NDE4MTYsOTAzNTg2MjA1LDE0NTEzMzY0
+OTUsMTQ1MTMzNjQ5NSwtMTYxMjQxMzUwNV19
 -->
