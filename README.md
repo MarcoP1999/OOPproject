@@ -67,9 +67,9 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 > ## **Diagramma Classi**
 
-  - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/srcelaborazione.png)
  - **univpm.progetto.controller**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
+ - **univpm.progetto.elaborazione** 
  - **univpm.progetto.exception**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Exception.png)
 - **univpm.progetto.filtri_e_statistiche**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
@@ -77,14 +77,12 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
  - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/verifica.png)
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjkwNzcxMDAsLTI0MzIwOTk4OSw1NT
-kwNzMwNTQsODcyNzExNTI4LC0yMTA4OTk5MjUwLC02OTEyMTIy
-MTIsNDA5MjY1OTkyLDQ3NzE5MjIxOCw3MjMyMjM2MzksNDc3MT
-kyMjE4LDcyMzIyMzYzOSwtMjA3MDc3Njg3NSwxMDA5NzcyOTM5
-LDIwMDQwODg3MDUsMTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0OD
-YyNjk4NCw2MDIxNTM2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1
-XX0=
+eyJoaXN0b3J5IjpbMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MD
+czMDU0LDg3MjcxMTUyOCwtMjEwODk5OTI1MCwtNjkxMjEyMjEy
+LDQwOTI2NTk5Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3NzE5Mj
+IxOCw3MjMyMjM2MzksLTIwNzA3NzY4NzUsMTAwOTc3MjkzOSwy
+MDA0MDg4NzA1LDE1MDE5NjQ4NywxODYwMjIzMTQzLC00NDg2Mj
+Y5ODQsNjAyMTUzNjQwLDEzMzQwNDAyMzgsMTAzOTQwMTcwNV19
+
 -->
