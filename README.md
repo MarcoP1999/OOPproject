@@ -89,14 +89,14 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 
- - **
+ - **data_search**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequenze_data_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE0MDg4ODUsOTU5NjE2Njc0LDEzNT
-cyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMTIsMjYyNjIyMjE3
-LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3MjcxMTUyOCwtMjEwOD
-k5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5Miw0NzcxOTIyMTgs
-NzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMjM2MzksLTIwNzA3Nz
-Y4NzUsMTAwOTc3MjkzOSwyMDA0MDg4NzA1LDE1MDE5NjQ4N119
-
+eyJoaXN0b3J5IjpbLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOT
+U5NjE2Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIy
+MTIsMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3Mj
+cxMTUyOCwtMjEwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5
+Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMj
+M2MzksLTIwNzA3NzY4NzUsMTAwOTc3MjkzOSwyMDA0MDg4NzA1
+XX0=
 -->
