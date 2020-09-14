@@ -67,7 +67,7 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 > ## **Diagramma Classi**
 
-  - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
+  - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/elaborazione.png)
  - **univpm.progetto.controller**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
  - **univpm.progetto.exception**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Exception.png)
@@ -80,11 +80,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzU0MzcxMiwtMjQzMjA5OTg5LDU1OT
-A3MzA1NCw4NzI3MTE1MjgsLTIxMDg5OTkyNTAsLTY5MTIxMjIx
-Miw0MDkyNjU5OTIsNDc3MTkyMjE4LDcyMzIyMzYzOSw0NzcxOT
-IyMTgsNzIzMjIzNjM5LC0yMDcwNzc2ODc1LDEwMDk3NzI5Mzks
-MjAwNDA4ODcwNSwxNTAxOTY0ODcsMTg2MDIyMzE0MywtNDQ4Nj
-I2OTg0LDYwMjE1MzY0MCwxMzM0MDQwMjM4LDEwMzk0MDE3MDVd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMTg0NTkxNjMsLTI0MzIwOTk4OSw1NT
+kwNzMwNTQsODcyNzExNTI4LC0yMTA4OTk5MjUwLC02OTEyMTIy
+MTIsNDA5MjY1OTkyLDQ3NzE5MjIxOCw3MjMyMjM2MzksNDc3MT
+kyMjE4LDcyMzIyMzYzOSwtMjA3MDc3Njg3NSwxMDA5NzcyOTM5
+LDIwMDQwODg3MDUsMTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0OD
+YyNjk4NCw2MDIxNTM2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1
+XX0=
 -->
