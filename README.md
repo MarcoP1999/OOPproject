@@ -69,20 +69,20 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
  - **univpm.progetto.controller**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
- - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
  - **univpm.progetto.exception**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Exception.png)
 - **univpm.progetto.filtri_e_statistiche**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
 - **univpm.progetto.Json**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
  - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/verifica.png)
+  - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTIxMjIxMiw0MDkyNjU5OTIsNDc3MT
-kyMjE4LDcyMzIyMzYzOSw0NzcxOTIyMTgsNzIzMjIzNjM5LC0y
-MDcwNzc2ODc1LDEwMDk3NzI5MzksMjAwNDA4ODcwNSwxNTAxOT
-Y0ODcsMTg2MDIyMzE0MywtNDQ4NjI2OTg0LDYwMjE1MzY0MCwx
-MzM0MDQwMjM4LDEwMzk0MDE3MDUsLTU3OTU2OTgyMSwxNTQ3NT
-M5Njk4LC0xNzQ1NjM3NzY2LDI1OTU0MTgxNiw5MDM1ODYyMDVd
+eyJoaXN0b3J5IjpbODcyNzExNTI4LC02OTEyMTIyMTIsNDA5Mj
+Y1OTkyLDQ3NzE5MjIxOCw3MjMyMjM2MzksNDc3MTkyMjE4LDcy
+MzIyMzYzOSwtMjA3MDc3Njg3NSwxMDA5NzcyOTM5LDIwMDQwOD
+g3MDUsMTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0ODYyNjk4NCw2
+MDIxNTM2NDAsMTMzNDA0MDIzOCwxMDM5NDAxNzA1LC01Nzk1Nj
+k4MjEsMTU0NzUzOTY5OCwtMTc0NTYzNzc2NiwyNTk1NDE4MTZd
 fQ==
 -->
