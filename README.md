@@ -81,13 +81,14 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 > ## **Diagramma di Sequenza**
 
  - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedatameta.png)
+ - **dim_Meta**[enter link description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedimmeta.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzI0NjI1LDE0OTgwNDIwNzgsLTY5MT
-IxMjIxMiwyNjI2MjIyMTcsLTI0MzIwOTk4OSw1NTkwNzMwNTQs
-ODcyNzExNTI4LC0yMTA4OTk5MjUwLC02OTEyMTIyMTIsNDA5Mj
-Y1OTkyLDQ3NzE5MjIxOCw3MjMyMjM2MzksNDc3MTkyMjE4LDcy
-MzIyMzYzOSwtMjA3MDc3Njg3NSwxMDA5NzcyOTM5LDIwMDQwOD
-g3MDUsMTUwMTk2NDg3LDE4NjAyMjMxNDMsLTQ0ODYyNjk4NF19
+eyJoaXN0b3J5IjpbLTg4MjkyMjkwLDEzNTcyNDYyNSwxNDk4MD
+QyMDc4LC02OTEyMTIyMTIsMjYyNjIyMjE3LC0yNDMyMDk5ODks
+NTU5MDczMDU0LDg3MjcxMTUyOCwtMjEwODk5OTI1MCwtNjkxMj
+EyMjEyLDQwOTI2NTk5Miw0NzcxOTIyMTgsNzIzMjIzNjM5LDQ3
+NzE5MjIxOCw3MjMyMjM2MzksLTIwNzA3NzY4NzUsMTAwOTc3Mj
+kzOSwyMDA0MDg4NzA1LDE1MDE5NjQ4NywxODYwMjIzMTQzXX0=
 
 -->
