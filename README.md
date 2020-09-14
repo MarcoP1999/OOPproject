@@ -73,12 +73,14 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
  - **univpm.progetto.filtri_e_statistiche**
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
- - univpm.progetto.verifiche
+ - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/verifica.png)
+ - **
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDA4ODcwNSwxNTAxOTY0ODcsMTg2MD
-IyMzE0MywtNDQ4NjI2OTg0LDYwMjE1MzY0MCwxMzM0MDQwMjM4
-LDEwMzk0MDE3MDUsLTU3OTU2OTgyMSwxNTQ3NTM5Njk4LC0xNz
-Q1NjM3NzY2LDI1OTU0MTgxNiw5MDM1ODYyMDUsMTQ1MTMzNjQ5
-NSwxNDUxMzM2NDk1LC0xNjEyNDEzNTA1XX0=
+eyJoaXN0b3J5IjpbMTAwOTc3MjkzOSwyMDA0MDg4NzA1LDE1MD
+E5NjQ4NywxODYwMjIzMTQzLC00NDg2MjY5ODQsNjAyMTUzNjQw
+LDEzMzQwNDAyMzgsMTAzOTQwMTcwNSwtNTc5NTY5ODIxLDE1ND
+c1Mzk2OTgsLTE3NDU2Mzc3NjYsMjU5NTQxODE2LDkwMzU4NjIw
+NSwxNDUxMzM2NDk1LDE0NTEzMzY0OTUsLTE2MTI0MTM1MDVdfQ
+==
 -->
