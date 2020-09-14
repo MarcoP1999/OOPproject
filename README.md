@@ -93,10 +93,10 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ## Ricerca su search:
  - **data_search**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequenze_data_search.png)
  - **search_Nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequence_nome.png)
- - **
+ - **dim**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgwMDM3MDAsLTgxOTQ2NzY2MCwtMT
+eyJoaXN0b3J5IjpbLTEwMzk4MzA2MjgsLTgxOTQ2NzY2MCwtMT
 E2MDE2NDk4MCwtMTY2MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0
 NjI1LDE0OTgwNDIwNzgsLTY5MTIxMjIxMiwyNjI2MjIyMTcsLT
 I0MzIwOTk4OSw1NTkwNzMwNTQsODcyNzExNTI4LC0yMTA4OTk5
