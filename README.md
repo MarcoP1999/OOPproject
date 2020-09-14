@@ -68,15 +68,15 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 > ## **Diagramma Classi**
 
  - **univpm.progetto.controller**
-![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Controller.png)
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_Classi/Controller.png)
 
- - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/elaborazione.png)
- - **univpm.progetto.exception**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Exception.png)
+ - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_Classi/elaborazione.png)
+ - **univpm.progetto.exception**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_Classi/Exception.png)
 - **univpm.progetto.filtri_e_statistiche**
-![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Filtri_Statistiche.png)
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_Classi/Filtri_Statistiche.png)
 - **univpm.progetto.Json**
-![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/JSON.png)
- - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/verifica.png)
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_Classi/JSON.png)
+ - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_Classi/verifica.png)
 
 > ## **Diagramma di Sequenza**
 
@@ -85,22 +85,22 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ## Ricerca su meta:
 
 
- - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedatameta.png)
- - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequencedimmeta.png)
+ - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequencedatameta.png)
+ - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequencedimmeta.png)
 
 
 
 ## Ricerca su search:
- - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequenze_data_search.png)
- - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequence_nome.png)
+ - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_search.png)
+ - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequence_nome.png)
  - **dim**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg4NjI0NCwtODE5NDY3NjYwLC0xMT
-YwMTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2
-MjUsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYyMjIxNywtMj
-QzMjA5OTg5LDU1OTA3MzA1NCw4NzI3MTE1MjgsLTIxMDg5OTky
-NTAsLTY5MTIxMjIxMiw0MDkyNjU5OTIsNDc3MTkyMjE4LDcyMz
-IyMzYzOSw0NzcxOTIyMTgsNzIzMjIzNjM5LC0yMDcwNzc2ODc1
-XX0=
+eyJoaXN0b3J5IjpbLTgzODg1MTMwNCwxMzk4ODg2MjQ0LC04MT
+k0Njc2NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5NjE2
+Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMTIsMj
+YyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3MjcxMTUy
+OCwtMjEwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5Miw0Nz
+cxOTIyMTgsNzIzMjIzNjM5LDQ3NzE5MjIxOCw3MjMyMjM2Mzld
+fQ==
 -->
