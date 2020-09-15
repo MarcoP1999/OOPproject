@@ -91,16 +91,16 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  - **alt_largh_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_alt_largh_meta.png)
 
 ## Ricerca su search:
- - **data**
+ - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_search.png)
  - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_search.png)
  - **dim**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ3MzkzMzgsLTU3ODI3MzU2OSwxNT
-Y4NDE2ODg5LDE0MTE5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3
-NjYwLC0xMTYwMTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NC
-wxMzU3MjQ2MjUsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYy
-MjIxNywtMjQzMjA5OTg5LDU1OTA3MzA1NCw4NzI3MTE1MjgsLT
-IxMDg5OTkyNTAsLTY5MTIxMjIxMiw0MDkyNjU5OTIsNDc3MTky
-MjE4XX0=
+eyJoaXN0b3J5IjpbLTk2ODE5MzYxLC01NzgyNzM1NjksMTU2OD
+QxNjg4OSwxNDExOTk0NTgxLDEzOTg4ODYyNDQsLTgxOTQ2NzY2
+MCwtMTE2MDE2NDk4MCwtMTY2MTQwODg4NSw5NTk2MTY2NzQsMT
+M1NzI0NjI1LDE0OTgwNDIwNzgsLTY5MTIxMjIxMiwyNjI2MjIy
+MTcsLTI0MzIwOTk4OSw1NTkwNzMwNTQsODcyNzExNTI4LC0yMT
+A4OTk5MjUwLC02OTEyMTIyMTIsNDA5MjY1OTkyLDQ3NzE5MjIx
+OF19
 -->
