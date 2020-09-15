@@ -91,12 +91,12 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  - **alt_largh_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequence_alt_largh_meta.png)
 
 ## Ricerca su search:
- - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_search.png)
+ - **data**
  - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_search.png)
  - **dim**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjY5NzIzOCwxNTY4NDE2ODg5LDE0MT
+eyJoaXN0b3J5IjpbLTU3ODI3MzU2OSwxNTY4NDE2ODg5LDE0MT
 E5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3NjYwLC0xMTYwMTY0
 OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2MjUsMT
 Q5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYyMjIxNywtMjQzMjA5
