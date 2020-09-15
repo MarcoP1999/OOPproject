@@ -88,19 +88,23 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_meta.png)
  - **nome_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_meta.png)
  - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_meta.png)
- - **alt_largh_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_alt_largh_meta.png)
+ - **alt_largh_Meta**
+ - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_alt_largh_meta.png)
 
 ## Ricerca su search:
- - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_search.png)
- - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_search.png)
- - **dim**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
+ - **data**
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_search.png)
+ - **nome**
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_search.png)
+ - **dim**
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODE5MzYxLC01NzgyNzM1NjksMTU2OD
-QxNjg4OSwxNDExOTk0NTgxLDEzOTg4ODYyNDQsLTgxOTQ2NzY2
-MCwtMTE2MDE2NDk4MCwtMTY2MTQwODg4NSw5NTk2MTY2NzQsMT
-M1NzI0NjI1LDE0OTgwNDIwNzgsLTY5MTIxMjIxMiwyNjI2MjIy
-MTcsLTI0MzIwOTk4OSw1NTkwNzMwNTQsODcyNzExNTI4LC0yMT
-A4OTk5MjUwLC02OTEyMTIyMTIsNDA5MjY1OTkyLDQ3NzE5MjIx
-OF19
+eyJoaXN0b3J5IjpbMTU1ODkyMDg3NCwtNTc4MjczNTY5LDE1Nj
+g0MTY4ODksMTQxMTk5NDU4MSwxMzk4ODg2MjQ0LC04MTk0Njc2
+NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5NjE2Njc0LD
+EzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMTIsMjYyNjIy
+MjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3MjcxMTUyOCwtMj
+EwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5Miw0NzcxOTIy
+MThdfQ==
 -->
