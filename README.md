@@ -85,11 +85,14 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ## Ricerca su meta:
 
 
- - **data_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_meta.png)
- - **nome_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_meta.png)
- - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_meta.png)
+ - **data_Meta**
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_data_meta.png)
+ - **nome_Meta**
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_nome_meta.png)
+ - **dim_Meta**
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_meta.png)
  - **alt_largh_Meta**
- - ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_alt_largh_meta.png)
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_alt_largh_meta.png)
 
 ## Ricerca su search:
  - **data**
@@ -100,11 +103,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODkyMDg3NCwtNTc4MjczNTY5LDE1Nj
-g0MTY4ODksMTQxMTk5NDU4MSwxMzk4ODg2MjQ0LC04MTk0Njc2
-NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5NjE2Njc0LD
-EzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMTIsMjYyNjIy
-MjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3MjcxMTUyOCwtMj
-EwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2NTk5Miw0NzcxOTIy
-MThdfQ==
+eyJoaXN0b3J5IjpbLTExMTk0ODE2NzksLTU3ODI3MzU2OSwxNT
+Y4NDE2ODg5LDE0MTE5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3
+NjYwLC0xMTYwMTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NC
+wxMzU3MjQ2MjUsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYy
+MjIxNywtMjQzMjA5OTg5LDU1OTA3MzA1NCw4NzI3MTE1MjgsLT
+IxMDg5OTkyNTAsLTY5MTIxMjIxMiw0MDkyNjU5OTIsNDc3MTky
+MjE4XX0=
 -->
