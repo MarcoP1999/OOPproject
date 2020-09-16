@@ -5,6 +5,8 @@ Il progetto proposto consente di ricercare file in base al nome, alla data di mo
 
 Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET, di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON.
 
+Per u
+
 Una volta avviato il programma, il servizio sarà disponibile all'indirizzo http://localhost:8080/
 
 I dati in ingresso sono stati prelevati grazie alle API di dropbox 
@@ -125,7 +127,7 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzAxMDIwNSwtMTU4MDg1NjgwOCwtOT
+eyJoaXN0b3J5IjpbLTkzODA0NzQ2MywtMTU4MDg1NjgwOCwtOT
 ExNDQyNTAsMTM5NDA5OTM0NiwxODUzOTkxODQ3LC0xMTE5NDgx
 Njc5LC01NzgyNzM1NjksMTU2ODQxNjg4OSwxNDExOTk0NTgxLD
 EzOTg4ODYyNDQsLTgxOTQ2NzY2MCwtMTE2MDE2NDk4MCwtMTY2
