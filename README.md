@@ -5,9 +5,7 @@ Il progetto proposto consente di ricercare file in base al nome, alla data di mo
 
 Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET, di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON.
 
-Per u
-
-Una volta avviato il programma, il servizio sarà disponibile all'indirizzo http://localhost:8080/
+Per utilizzare il programma basta scaricare il file ZIP, estrarlo e importarlo all'interno di eclipse come maven project; fatto ciò il programma deve essere avviato come SpringBoot application, il servizio sarà disponibile all'indirizzo http://localhost:8080/
 
 I dati in ingresso sono stati prelevati grazie alle API di dropbox 
  - #file-search
@@ -127,11 +125,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODA0NzQ2MywtMTU4MDg1NjgwOCwtOT
-ExNDQyNTAsMTM5NDA5OTM0NiwxODUzOTkxODQ3LC0xMTE5NDgx
-Njc5LC01NzgyNzM1NjksMTU2ODQxNjg4OSwxNDExOTk0NTgxLD
-EzOTg4ODYyNDQsLTgxOTQ2NzY2MCwtMTE2MDE2NDk4MCwtMTY2
-MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0NjI1LDE0OTgwNDIwNz
-gsLTY5MTIxMjIxMiwyNjI2MjIyMTcsLTI0MzIwOTk4OSw1NTkw
-NzMwNTRdfQ==
+eyJoaXN0b3J5IjpbNjEyNzk4NjM2LC0xNTgwODU2ODA4LC05MT
+E0NDI1MCwxMzk0MDk5MzQ2LDE4NTM5OTE4NDcsLTExMTk0ODE2
+NzksLTU3ODI3MzU2OSwxNTY4NDE2ODg5LDE0MTE5OTQ1ODEsMT
+M5ODg4NjI0NCwtODE5NDY3NjYwLC0xMTYwMTY0OTgwLC0xNjYx
+NDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2MjUsMTQ5ODA0MjA3OC
+wtNjkxMjEyMjEyLDI2MjYyMjIxNywtMjQzMjA5OTg5LDU1OTA3
+MzA1NF19
 -->
