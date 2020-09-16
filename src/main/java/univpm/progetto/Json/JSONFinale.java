@@ -2,7 +2,7 @@ package univpm.progetto.Json;
 
 import org.json.simple.JSONArray;
 
-import univpm.progetto.FiltrieStatistiche.JSONStatistiche;
+import univpm.progetto.filtri_e_statistiche.JSONStatistiche;
 
 /**
  * Classe che rappresenta il JSON che viene restituito al client comprendente elementi 

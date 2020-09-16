@@ -6,13 +6,13 @@ import java.util.List;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import univpm.progetto.FiltrieStatistiche.Filtri;
 import univpm.progetto.Json.JSONparse;
 import univpm.progetto.exception.ErroreFileException;
 import univpm.progetto.exception.FailDataException;
 import univpm.progetto.exception.FailDimException;
 import univpm.progetto.exception.FormatoNonTrovatoException;
 import univpm.progetto.exception.ParametriErratiException;
+import univpm.progetto.filtri_e_statistiche.Filtri;
 import univpm.progetto.verifiche.Verifica;
 
 
@@ -33,10 +33,9 @@ public class Searchper {
 	 * @throws FormatoNonTrovatoException se il formato inserito non è supportato 
 	 * @throws ParametriErratiException se i parametri sono stati inseriti in ordine errato
 	 * @throws FailDimException se il tipo inserito è diverso da quello richiesto
-	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 
-	public JSONArray TipoDiFile(List<String> string) throws FormatoNonTrovatoException, ParametriErratiException, FailDimException, ErroreFileException {
+	public JSONArray TipoDiFile(List<String> string) throws FormatoNonTrovatoException, ParametriErratiException, FailDimException {
 		
 		Verifica verifica = new Verifica();
 		Filtri filtro = new Filtri();
@@ -96,10 +95,8 @@ public class Searchper {
 					fine = nome.substring(nome.length() - tipo.length());
 					if (fine.equals(tipo))
 						finale.add(meta);
-
 					}
 				}
-
 			}
 
 		return finale;
@@ -110,11 +107,10 @@ public class Searchper {
 	 * Chiamata quando si intende ricercare in base a nome o parte di esso
 	 * @param body: una String che rappresenta il nome cercato (o parte iniziale del nome)
 	 * @return JSONArray contenente gli elementi ricercati 
-	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 	
 
-	public JSONArray NomeFile(String body) throws ErroreFileException {
+	public JSONArray NomeFile(String body) {
 
 		String nomeinput = body.toLowerCase();
 
@@ -162,10 +158,9 @@ public class Searchper {
 	 * @throws FailDataException se la data inserita non rispetta il formato
 	 * @throws ParametriErratiException se i parametri sono inseriti in ordine errato o se 
 	 * non rispettano il tipo richiesto
-	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 	
-	public JSONArray Data(List<String> body) throws FailDataException, ParametriErratiException, ErroreFileException {
+	public JSONArray Data(List<String> body) throws FailDataException, ParametriErratiException {
 
 		if (body.size() > 2) {
 			throw new ParametriErratiException("inserire solamente 2 parametri");

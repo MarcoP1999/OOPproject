@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Proietti Marco
  * @author Traini Davide
  */
+
 @SpringBootApplication
 public class ProgettoApplication {
 

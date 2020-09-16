@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import univpm.progetto.FiltrieStatistiche.JSONStatistiche;
-import univpm.progetto.FiltrieStatistiche.Statistiche;
 import univpm.progetto.Json.JSONFinale;
 
 import univpm.progetto.elaborazione.Searchper;
@@ -18,6 +16,8 @@ import univpm.progetto.exception.FailDataException;
 import univpm.progetto.exception.FailDimException;
 import univpm.progetto.exception.FormatoNonTrovatoException;
 import univpm.progetto.exception.ParametriErratiException;
+import univpm.progetto.filtri_e_statistiche.JSONStatistiche;
+import univpm.progetto.filtri_e_statistiche.Statistiche;
 
 /**
  * Tale classe gestisce le chiamate effettuate tramite Postman
@@ -36,7 +36,7 @@ public class SimpleRestController {
 	 * @param corpo è una List composta da 4 elementi inseriti come parametri tramite
 	 *  postman. I quattro elementi rappresentano: 
 	 *  1)Tipo formato da ricercare 
-	 *  2)Operatore d'ordinamento, che serve per filtrare in base ai 2 successivi parametri 
+	 *  2)Operatore d'ordinamento che serve per filtrare in base ai 2 successivi parametri 
 	 *  3)Altezza richiesta
 	 *  4)Larghezza richiesta
 	 *              
@@ -46,7 +46,6 @@ public class SimpleRestController {
 	 * @throws ParametriErratiException   se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
 	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
-	 * 
 	 */
 
 	@GetMapping("/search_tipo_dim_altezzalarghezzaMeta")
@@ -150,12 +149,11 @@ public class SimpleRestController {
 	 * @throws ParametriErratiException   se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
 	 * @throws FailDimException se il tipo inserito è diverso da quello richiesto
-	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 
 	@GetMapping("/search_tipo_dim")
 	public JSONFinale dim(@RequestParam List<String> corpo)
-			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException, ErroreFileException {
+			throws FormatoNonTrovatoException, ParametriErratiException, FailDimException{
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.TipoDiFile(corpo);
 		Statistiche stats = new Statistiche();
@@ -172,13 +170,11 @@ public class SimpleRestController {
 	 * tramite postman, esso rappresenta il nome, o i primi caratteri del nome di un file 
 	 * ricercato
 	 *              
-	 * @return JSONArray comprendente elementi cercati 
-	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
-	 * 
+	 * @return JSONArray comprendente elementi cercati  
 	 */
 
 	@GetMapping("/search_nome")
-	public JSONArray nome(@RequestParam String corpo) throws ErroreFileException {
+	public JSONArray nome(@RequestParam String corpo) {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.NomeFile(corpo);
 		return obj2;
@@ -198,11 +194,10 @@ public class SimpleRestController {
 	 * @throws FailDataException se la data è scritta con formato errato
 	 * @throws ParametriErratiException se l'ordine di inserimento dei parametri è errato
 	 *  o se essi non rispettano il tipo richiesto
-	 * @throws ErroreFileException se il file di testo è scritto in maniera errata
 	 */
 	
 	@GetMapping("/search_data")
-	public JSONArray data(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException, ErroreFileException {
+	public JSONArray data(@RequestParam List<String> corpo) throws FailDataException, ParametriErratiException {
 		Searchper cerca = new Searchper();
 		JSONArray obj2 = cerca.Data(corpo);
 		return obj2;

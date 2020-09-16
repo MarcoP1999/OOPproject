@@ -7,13 +7,13 @@ import java.util.List;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import univpm.progetto.FiltrieStatistiche.Filtri;
 import univpm.progetto.Json.JSONparse;
 import univpm.progetto.exception.ErroreFileException;
 import univpm.progetto.exception.FailDataException;
 import univpm.progetto.exception.FailDimException;
 import univpm.progetto.exception.FormatoNonTrovatoException;
 import univpm.progetto.exception.ParametriErratiException;
+import univpm.progetto.filtri_e_statistiche.Filtri;
 import univpm.progetto.verifiche.Verifica;
 
 
@@ -271,10 +271,7 @@ public class SearchperMeta {
 			// restituisce un errore
 		} catch (NumberFormatException e) {
 			throw new ParametriErratiException("inserire un parametro intero come terzo,quarto e sesto parametro");
-		} catch (Exception e) {
-			throw new ParametriErratiException("inserire 6 parametri");
 		}
-		
 
 		JSONArray finale = new JSONArray();
 		// se l'operatore è diverso da quelli ammessi restituisce un erroe

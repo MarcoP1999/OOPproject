@@ -6,6 +6,12 @@ import univpm.progetto.exception.FailDataException;
 import univpm.progetto.exception.FormatoNonTrovatoException;
 import univpm.progetto.exception.ParametriErratiException;
 
+/**
+ * Classe che contiene i metodi per verificare alcune proprietà degli elementi in esame
+ * @author Proietti Marco
+ * @author Traini Davide
+ */
+
 public class Verifica {
 
 	
@@ -20,6 +26,7 @@ public class Verifica {
 	 * @return c1 data sotto forma di Calendar
 	 * @throws FailDataException se le date non sono reali
 	 */
+	
 	public Calendar VerificaEsistenza(int a,int m,int g) throws FailDataException {
 		 
 		
@@ -41,6 +48,7 @@ public class Verifica {
 	
 	
 	/**
+	 *  Metodo per verificare che l'operatore sia supportato
 	 * 
 	 * @param op operatore inserito dall'utente
 	 * @return true se l'operatore è ammesso
@@ -59,6 +67,7 @@ public class Verifica {
 	
 	
 	/**
+	 *  Metodo per verificare che il formato sia supportato
 	 * 
 	 * @param tipo è il formato richiesto dall'utente
 	 * @return true se il formato è supportato
@@ -83,7 +92,8 @@ public class Verifica {
 	 * @throws ParametriErratiException se i parametri sono inseriti in ordine errato o se 
 	 * non rispettano il tipo richiesto
 	 */
-	public boolean VerificaParametri(Calendar c1, Calendar c2) throws ParametriErratiException {
+	
+	public Boolean VerificaParametri(Calendar c1, Calendar c2) throws ParametriErratiException {
 		 
 		 if (c1.compareTo(c2)<0) {
 		throw new ParametriErratiException("inserire nuovamente i parametri in modo che il primo rappresenti una data successiva rispetto alla seconda");
