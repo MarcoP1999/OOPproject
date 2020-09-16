@@ -1,9 +1,9 @@
 
 ## Progetto Spring Boot 
 
-Il progetto proposto consente di ricercare file in base al nome, alla data di modifica o al tipo di file (pnj, jpg, jpeg, tiff) ricevendo statistiche riguardo la dimensione. 
+Il progetto proposto consente di ricercare file in base al nome, alla data di modifica o al tipo di file (png, jpg, jpeg, tiff) ricevendo statistiche riguardo la dimensione. 
 
-Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET , di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON.
+Nel nostro caso il Client è Postman che consente, grazie a chiamate di tipo GET, di inserire parametri di ricerca ed ottenere gli elementi desiderati sotto forma di JSON.
 
 Una volta avviato il programma, il servizio sarà disponibile all'indirizzo http://localhost:8080/
 
@@ -118,11 +118,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Mzk5MTg0NywtMTExOTQ4MTY3OSwtNT
-c4MjczNTY5LDE1Njg0MTY4ODksMTQxMTk5NDU4MSwxMzk4ODg2
-MjQ0LC04MTk0Njc2NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4OD
-UsOTU5NjE2Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEy
-MTIyMTIsMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LD
-g3MjcxMTUyOCwtMjEwODk5OTI1MCwtNjkxMjEyMjEyLDQwOTI2
-NTk5Ml19
+eyJoaXN0b3J5IjpbMTM5NDA5OTM0NiwxODUzOTkxODQ3LC0xMT
+E5NDgxNjc5LC01NzgyNzM1NjksMTU2ODQxNjg4OSwxNDExOTk0
+NTgxLDEzOTg4ODYyNDQsLTgxOTQ2NzY2MCwtMTE2MDE2NDk4MC
+wtMTY2MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0NjI1LDE0OTgw
+NDIwNzgsLTY5MTIxMjIxMiwyNjI2MjIyMTcsLTI0MzIwOTk4OS
+w1NTkwNzMwNTQsODcyNzExNTI4LC0yMTA4OTk5MjUwLC02OTEy
+MTIyMTJdfQ==
 -->
