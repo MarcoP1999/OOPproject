@@ -120,16 +120,16 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 ## Autori
 
- - **Proietti Marco** [enter link description here](https://github.com/MarcoP1999)
- - **Traini Davide** [enter link description here](https://github.com/DavideTraini99)
+ - **Proietti Marco** [Link GitHub](https://github.com/MarcoP1999)
+ - **Traini Davide** [Link GitHub](https://github.com/DavideTraini99)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIzODU1MCwtOTExNDQyNTAsMTM5ND
-A5OTM0NiwxODUzOTkxODQ3LC0xMTE5NDgxNjc5LC01NzgyNzM1
-NjksMTU2ODQxNjg4OSwxNDExOTk0NTgxLDEzOTg4ODYyNDQsLT
-gxOTQ2NzY2MCwtMTE2MDE2NDk4MCwtMTY2MTQwODg4NSw5NTk2
-MTY2NzQsMTM1NzI0NjI1LDE0OTgwNDIwNzgsLTY5MTIxMjIxMi
-wyNjI2MjIyMTcsLTI0MzIwOTk4OSw1NTkwNzMwNTQsODcyNzEx
-NTI4XX0=
+eyJoaXN0b3J5IjpbLTEwNjAwMDEyMDYsLTkxMTQ0MjUwLDEzOT
+QwOTkzNDYsMTg1Mzk5MTg0NywtMTExOTQ4MTY3OSwtNTc4Mjcz
+NTY5LDE1Njg0MTY4ODksMTQxMTk5NDU4MSwxMzk4ODg2MjQ0LC
+04MTk0Njc2NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5
+NjE2Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMT
+IsMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3Mjcx
+MTUyOF19
 -->
