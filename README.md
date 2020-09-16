@@ -120,12 +120,12 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 ## Autori
 
- - **Proietti Marco** [Link GitHub](https://github.com/MarcoP1999)
- - **Traini Davide** [Link GitHub](https://github.com/DavideTraini99)
+ - **Proietti Marco**  - [Link GitHub](https://github.com/MarcoP1999)
+ - **Traini Davide** -  [Link GitHub](https://github.com/DavideTraini99)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAwMDEyMDYsLTkxMTQ0MjUwLDEzOT
+eyJoaXN0b3J5IjpbLTE1ODA4NTY4MDgsLTkxMTQ0MjUwLDEzOT
 QwOTkzNDYsMTg1Mzk5MTg0NywtMTExOTQ4MTY3OSwtNTc4Mjcz
 NTY5LDE1Njg0MTY4ODksMTQxMTk5NDU4MSwxMzk4ODg2MjQ0LC
 04MTk0Njc2NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5
