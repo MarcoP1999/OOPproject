@@ -12,7 +12,7 @@ I dati in ingresso sono stati prelevati grazie alle API di dropbox
  - #files-get_metadata
 
 La prima restituisce un oggetto di tipo JSONObject contenente un JSONArray relativo a più elementi, mentre la seconda restituisce un  JSONObject relativo ad un unico elemento.
-Perciò è stato necessario creare un file (https://github.com/MarcoP1999/OOPproject/blob/master/JSONPath.txt)  contenente i path relativi a diversi elementi salvati nell'account Dropbox utilizzato e scritti sotto forma di JSONArray. 
+Perciò è stato necessario creare un file (https://github.com/MarcoP1999/OOPproject/blob/master/src/JSONPath.txt)  contenente i path relativi a diversi elementi salvati nell'account Dropbox utilizzato e scritti sotto forma di JSONArray. 
 È stato poi generato un ciclo per scorrere il JSONArray e sfruttare i path contenuti per iterare la chiamata a get_metadata la quale restituisce il JSONObject relativo ad ogni elemento del JSONArray; ogni elemento restituito è poi stato inserito all'interno di un JSONArray che sarà successivamente utilizzato per l'elaborazione.
 Proprio per questo motivo sono state create due classi distinte per l'elaborazione dei dati, una che presenta i metodi per lavorare con un JSONObject, l'altra con metodi relativi ad un JSONArray.
 
@@ -125,11 +125,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA4NTY4MDgsLTkxMTQ0MjUwLDEzOT
-QwOTkzNDYsMTg1Mzk5MTg0NywtMTExOTQ4MTY3OSwtNTc4Mjcz
-NTY5LDE1Njg0MTY4ODksMTQxMTk5NDU4MSwxMzk4ODg2MjQ0LC
-04MTk0Njc2NjAsLTExNjAxNjQ5ODAsLTE2NjE0MDg4ODUsOTU5
-NjE2Njc0LDEzNTcyNDYyNSwxNDk4MDQyMDc4LC02OTEyMTIyMT
-IsMjYyNjIyMjE3LC0yNDMyMDk5ODksNTU5MDczMDU0LDg3Mjcx
-MTUyOF19
+eyJoaXN0b3J5IjpbLTkzMzAxMDIwNSwtMTU4MDg1NjgwOCwtOT
+ExNDQyNTAsMTM5NDA5OTM0NiwxODUzOTkxODQ3LC0xMTE5NDgx
+Njc5LC01NzgyNzM1NjksMTU2ODQxNjg4OSwxNDExOTk0NTgxLD
+EzOTg4ODYyNDQsLTgxOTQ2NzY2MCwtMTE2MDE2NDk4MCwtMTY2
+MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0NjI1LDE0OTgwNDIwNz
+gsLTY5MTIxMjIxMiwyNjI2MjIyMTcsLTI0MzIwOTk4OSw1NTkw
+NzMwNTRdfQ==
 -->
