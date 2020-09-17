@@ -61,8 +61,7 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 > ## **Diagramma Casi D'uso**
 
-![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/src/UML/NewModel%20Use%20Case%20Diagram1.jpg)
-
+![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/NewModel%20Use%20Case%20Diagram1.jpg)
 
 
 > ## **Diagramma Classi**
@@ -125,11 +124,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NTEzNTk0LC0xNTgwODU2ODA4LC05MT
-E0NDI1MCwxMzk0MDk5MzQ2LDE4NTM5OTE4NDcsLTExMTk0ODE2
-NzksLTU3ODI3MzU2OSwxNTY4NDE2ODg5LDE0MTE5OTQ1ODEsMT
-M5ODg4NjI0NCwtODE5NDY3NjYwLC0xMTYwMTY0OTgwLC0xNjYx
-NDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2MjUsMTQ5ODA0MjA3OC
-wtNjkxMjEyMjEyLDI2MjYyMjIxNywtMjQzMjA5OTg5LDU1OTA3
-MzA1NF19
+eyJoaXN0b3J5IjpbLTExNTAxMDkyNjgsMjU2NTEzNTk0LC0xNT
+gwODU2ODA4LC05MTE0NDI1MCwxMzk0MDk5MzQ2LDE4NTM5OTE4
+NDcsLTExMTk0ODE2NzksLTU3ODI3MzU2OSwxNTY4NDE2ODg5LD
+E0MTE5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3NjYwLC0xMTYw
+MTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2Mj
+UsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYyMjIxNywtMjQz
+MjA5OTg5XX0=
 -->
