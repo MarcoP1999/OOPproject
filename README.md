@@ -88,10 +88,10 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 
- - **nome_Meta**
+ - **nome_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_sequenze/sequenze_nome_meta.png)
 
 
- - **dim_Meta**
+ - **dim_Meta**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_sequenze/sequenze_dim_meta.png)
 
 
 
@@ -106,11 +106,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
  - **data**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_sequenze/sequenze_data_search.png)
 
 
- - **nome**
+ - **nome**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_sequenze/sequenze_nome_search.png)
 
 
 
- - **dim**
+ - **dim**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_sequenze/sequenze_dim_search.png)
 
 
 
@@ -123,11 +123,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI1OTM4MCwyMDE2ODAyMTk5LDI1Nj
-UxMzU5NCwtMTU4MDg1NjgwOCwtOTExNDQyNTAsMTM5NDA5OTM0
-NiwxODUzOTkxODQ3LC0xMTE5NDgxNjc5LC01NzgyNzM1NjksMT
-U2ODQxNjg4OSwxNDExOTk0NTgxLDEzOTg4ODYyNDQsLTgxOTQ2
-NzY2MCwtMTE2MDE2NDk4MCwtMTY2MTQwODg4NSw5NTk2MTY2Nz
-QsMTM1NzI0NjI1LDE0OTgwNDIwNzgsLTY5MTIxMjIxMiwyNjI2
-MjIyMTddfQ==
+eyJoaXN0b3J5IjpbMzAxNjk0NjQyLDIwMTY4MDIxOTksMjU2NT
+EzNTk0LC0xNTgwODU2ODA4LC05MTE0NDI1MCwxMzk0MDk5MzQ2
+LDE4NTM5OTE4NDcsLTExMTk0ODE2NzksLTU3ODI3MzU2OSwxNT
+Y4NDE2ODg5LDE0MTE5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3
+NjYwLC0xMTYwMTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NC
+wxMzU3MjQ2MjUsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYy
+MjIxN119
 -->
