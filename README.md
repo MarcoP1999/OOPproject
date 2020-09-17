@@ -12,7 +12,7 @@ I dati in ingresso sono stati prelevati grazie alle API di dropbox
  - #files-get_metadata
 
 La prima restituisce un oggetto di tipo JSONObject contenente un JSONArray relativo a più elementi, mentre la seconda restituisce un  JSONObject relativo ad un unico elemento.
-Perciò è stato necessario creare un file (https://github.com/MarcoP1999/OOPproject/blob/20f65bba1da138c3b38f509d8a91acc9c81ca5ea/progetto/JSONPath.txt)  contenente i path relativi a diversi elementi salvati nell'account Dropbox utilizzato e scritti sotto forma di JSONArray. 
+Perciò è stato necessario creare un file [](https://github.com/MarcoP1999/OOPproject/blob/20f65bba1da138c3b38f509d8a91acc9c81ca5ea/progetto/JSONPath.txt)  contenente i path relativi a diversi elementi salvati nell'account Dropbox utilizzato e scritti sotto forma di JSONArray. 
 È stato poi generato un ciclo per scorrere il JSONArray e sfruttare i path contenuti per iterare la chiamata a get_metadata la quale restituisce il JSONObject relativo ad ogni elemento del JSONArray; ogni elemento restituito è poi stato inserito all'interno di un JSONArray che sarà successivamente utilizzato per l'elaborazione.
 Proprio per questo motivo sono state create due classi distinte per l'elaborazione dei dati, una che presenta i metodi per lavorare con un JSONObject, l'altra con metodi relativi ad un JSONArray.
 
@@ -123,11 +123,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEzNDIyMjEsMzAxNjk0NjQyLDIwMT
-Y4MDIxOTksMjU2NTEzNTk0LC0xNTgwODU2ODA4LC05MTE0NDI1
-MCwxMzk0MDk5MzQ2LDE4NTM5OTE4NDcsLTExMTk0ODE2NzksLT
-U3ODI3MzU2OSwxNTY4NDE2ODg5LDE0MTE5OTQ1ODEsMTM5ODg4
-NjI0NCwtODE5NDY3NjYwLC0xMTYwMTY0OTgwLC0xNjYxNDA4OD
-g1LDk1OTYxNjY3NCwxMzU3MjQ2MjUsMTQ5ODA0MjA3OCwtNjkx
-MjEyMjEyXX0=
+eyJoaXN0b3J5IjpbLTEyMjgwMjM5LC0xODIxMzQyMjIxLDMwMT
+Y5NDY0MiwyMDE2ODAyMTk5LDI1NjUxMzU5NCwtMTU4MDg1Njgw
+OCwtOTExNDQyNTAsMTM5NDA5OTM0NiwxODUzOTkxODQ3LC0xMT
+E5NDgxNjc5LC01NzgyNzM1NjksMTU2ODQxNjg4OSwxNDExOTk0
+NTgxLDEzOTg4ODYyNDQsLTgxOTQ2NzY2MCwtMTE2MDE2NDk4MC
+wtMTY2MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0NjI1LDE0OTgw
+NDIwNzhdfQ==
 -->
