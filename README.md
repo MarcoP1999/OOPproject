@@ -66,13 +66,13 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 > ## **Diagramma Classi**
 
- - **univpm.progetto.controller**[https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/Controller.png](https://github.
+ - **univpm.progetto.controller**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/Controller.png)
 
- - **univpm.progetto.elaborazione** 
- - **univpm.progetto.exception**
-- **univpm.progetto.filtri_e_statistiche**
+ - **univpm.progetto.elaborazione** ![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/elaborazione.png)
+ - **univpm.progetto.exception**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/Exception.png)
+- **univpm.progetto.filtri_e_statistiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/Filtri_Statistiche.png)
 
-- **univpm.progetto.Json**
+- **univpm.progetto.Json**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/JSON.png)
 
  - **univpm.progetto.verifiche**
 
@@ -123,11 +123,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5NjI2NzExLDI1NjUxMzU5NCwtMTU4MD
-g1NjgwOCwtOTExNDQyNTAsMTM5NDA5OTM0NiwxODUzOTkxODQ3
-LC0xMTE5NDgxNjc5LC01NzgyNzM1NjksMTU2ODQxNjg4OSwxND
-ExOTk0NTgxLDEzOTg4ODYyNDQsLTgxOTQ2NzY2MCwtMTE2MDE2
-NDk4MCwtMTY2MTQwODg4NSw5NTk2MTY2NzQsMTM1NzI0NjI1LD
-E0OTgwNDIwNzgsLTY5MTIxMjIxMiwyNjI2MjIyMTcsLTI0MzIw
-OTk4OV19
+eyJoaXN0b3J5IjpbLTE2NDk5NTY3NzQsMjU2NTEzNTk0LC0xNT
+gwODU2ODA4LC05MTE0NDI1MCwxMzk0MDk5MzQ2LDE4NTM5OTE4
+NDcsLTExMTk0ODE2NzksLTU3ODI3MzU2OSwxNTY4NDE2ODg5LD
+E0MTE5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3NjYwLC0xMTYw
+MTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2Mj
+UsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYyMjIxNywtMjQz
+MjA5OTg5XX0=
 -->
