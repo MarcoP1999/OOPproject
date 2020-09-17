@@ -74,7 +74,7 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 - **univpm.progetto.Json**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/JSON.png)
 
- - **univpm.progetto.verifiche**
+ - **univpm.progetto.verifiche**![enter image description here](https://github.com/MarcoP1999/OOPproject/blob/master/progetto/UML/Diagramma_Classi/verifica.png)
 
 > ## **Diagramma di Sequenza**
 
@@ -123,11 +123,11 @@ L'abbiamo fatto per una successiva verifica: dopo aver elaborato i dati, essi so
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk5NTY3NzQsMjU2NTEzNTk0LC0xNT
-gwODU2ODA4LC05MTE0NDI1MCwxMzk0MDk5MzQ2LDE4NTM5OTE4
-NDcsLTExMTk0ODE2NzksLTU3ODI3MzU2OSwxNTY4NDE2ODg5LD
-E0MTE5OTQ1ODEsMTM5ODg4NjI0NCwtODE5NDY3NjYwLC0xMTYw
-MTY0OTgwLC0xNjYxNDA4ODg1LDk1OTYxNjY3NCwxMzU3MjQ2Mj
-UsMTQ5ODA0MjA3OCwtNjkxMjEyMjEyLDI2MjYyMjIxNywtMjQz
-MjA5OTg5XX0=
+eyJoaXN0b3J5IjpbMjAxNjgwMjE5OSwyNTY1MTM1OTQsLTE1OD
+A4NTY4MDgsLTkxMTQ0MjUwLDEzOTQwOTkzNDYsMTg1Mzk5MTg0
+NywtMTExOTQ4MTY3OSwtNTc4MjczNTY5LDE1Njg0MTY4ODksMT
+QxMTk5NDU4MSwxMzk4ODg2MjQ0LC04MTk0Njc2NjAsLTExNjAx
+NjQ5ODAsLTE2NjE0MDg4ODUsOTU5NjE2Njc0LDEzNTcyNDYyNS
+wxNDk4MDQyMDc4LC02OTEyMTIyMTIsMjYyNjIyMjE3LC0yNDMy
+MDk5ODldfQ==
 -->
